@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 class DropTooltip extends Component {
-
   render() {
-    console.log("info: ", this.props.info);
     return (
       <div className="tooltip">
         <table className="shrink">
