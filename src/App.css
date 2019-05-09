@@ -1,33 +1,70 @@
-.App {
-  text-align: center;
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #000;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.tooltipWrapper {
+  width: 320px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tooltip {
+  color: #FFF;
+  visibility: visible;
+  margin-top:-1px;
 }
 
-.App-link {
-  color: #61dafb;
+.tooltip .info {
+  font-size: 12px;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shrink {
+  width:320px;
 }
+
+.icon {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  margin: 0 5px 10px 0;
+  border-radius: 6px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 4px inset;
+}
+
+.small {
+  width: 36px;
+  height: 36px;
+}
+
+.menu {
+  margin: 10px 0 30px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.flexBox {
+  display:flex;
+  width: 1000px;
+}
+
+.flexBoxInner {
+  display:flex;
+  flex: 15;
+}
+
+.separator {
+  flex:1;
+}
+
+.selected {
+  box-shadow: #1eff00 0 0 20px inset;
+}
+
+.unavailable {
+  box-shadow: #f00 0 0 8px inset;
+}
+
+
