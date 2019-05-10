@@ -13,7 +13,7 @@ class ItemSlotsColumn extends React.Component {
     )));
 
     return (
-     <div>{ slots }</div>
+     <div className="itemColumn">{ slots }</div>
     );
   }
 }

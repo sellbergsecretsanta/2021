@@ -160,6 +160,7 @@ export default class App extends React.Component {
           <ItemSlots slots={this.state.slots} items={this.state.items} selectedItem={this.state.selectedItem} handleSelectItem={this.handleSelectItem} />
           <div className="separator"></div>
           <Tooltip tooltip={this.state.activeTooltip} info={this.state.activeInfo} isLoading={this.state.loading} />
+          <div className="separator"></div>
         </div>
       </div>
     );

@@ -7,6 +7,7 @@ body {
 
 .tooltipWrapper {
   width: 320px;
+  flex: 8;
 }
 
 .tooltip {
@@ -48,12 +49,11 @@ body {
 
 .flexBox {
   display:flex;
-  width: 1000px;
 }
 
-.flexBoxInner {
-  display:flex;
-  flex: 15;
+.itemColumn {
+  flex: 8;
+  min-width: 370px;
 }
 
 .separator {
@@ -65,7 +65,7 @@ body {
 }
 
 .unavailable {
-  box-shadow: #f00 0 0 8px inset;
+  box-shadow: #f00 0 0 30px inset;
 }
 
 

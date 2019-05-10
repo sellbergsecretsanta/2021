@@ -11,7 +11,7 @@ class ItemSlots extends React.Component {
     ));
 
     return (
-     <div className="flexBoxInner">
+     <div className="flexBox">
        <ItemSlotsColumn slots={slotsLeft} items={this.props.items} selectedItem={this.props.selectedItem} handleSelectItem={this.props.handleSelectItem} />
        <div className="separator"></div>
        <ItemSlotsColumn slots={slotsRight} items={this.props.items} selectedItem={this.props.selectedItem} handleSelectItem={this.props.handleSelectItem} />
