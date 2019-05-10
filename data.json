@@ -764,6 +764,17 @@
             },
             {
               "id":2,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"DM:W",
+              "boss":"Immol'thar",
+              "dropRate":"19%",
+              "itemId":"18372",
+              "icon":"inv_weapon_shortblade_18"
+            },
+            {
+              "id":3,
               "stage1":true,
               "stage2":true,
               "location":"",
@@ -772,17 +783,6 @@
               "dropRate":"14%",
               "itemId":"13964",
               "icon":"inv_weapon_shortblade_25"
-            },
-            {
-              "id":3,
-              "stage1":true,
-              "stage2":true,
-              "location":"",
-              "instance":"Scarlet Monastery",
-              "boss":"Arcanist Doan",
-              "dropRate":"25%",
-              "itemId":"7714",
-              "icon":"inv_weapon_shortblade_07"
             }
           ]
         },
@@ -2237,6 +2237,17 @@
               "dropRate":"60%",
               "itemId":"13285",
               "icon":"inv_weapon_halberd_11"
+            },
+            {
+              "id":5,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"BRD",
+              "boss":"Emperor Dagran Thaurissan",
+              "dropRate":"19%",
+              "itemId":"11931",
+              "icon":"inv_axe_22"
             }
           ]
         }
