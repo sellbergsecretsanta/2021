@@ -108,7 +108,6 @@ export default class App extends React.Component {
   }
 
   handleSelectItem = (selectedItem) => {
-    console.log(selectedItem);
     this.setState({selectedItem: selectedItem.itemId});
     this.getItem(selectedItem);
   }
@@ -137,8 +136,9 @@ export default class App extends React.Component {
     this.toggleLoading(true);
 
     const prefix = 'https://classicdb.ch/ajax.php?item=';
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
-    fetch(prefix + item.itemId)
+    fetch(proxyurl + prefix + item.itemId)
       .then(response => response.text())
       .then(data => {
         let tooltip = new RegExp(/(?<=tooltip_enus: ')(.*)(?=',)/);
