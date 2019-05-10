@@ -153,7 +153,7 @@
               "stage2": true,
               "location": "",
               "instance": "Stratholme",
-              "boss": "Baron",
+              "boss": "Baron Rivendare",
               "dropRate": "17%",
               "itemId": "13346",
               "icon": "inv_chest_cloth_08"
@@ -220,7 +220,7 @@
               "stage2": true,
               "location": "",
               "instance": "BRD",
-              "boss": "Vault of the seven",
+              "boss": "Tomb of the Seven",
               "dropRate": "23%",
               "itemId": "11923",
               "icon": "inv_hammer_07"
@@ -528,111 +528,547 @@
           "id": 1,
           "name": "head",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"12%",
+              "itemId":"22267",
+              "icon":"inv_helmet_62"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Engineering",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10504",
+              "icon":"inv_helmet_44"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Magistrate Barthilas",
+              "dropRate":"17%",
+              "itemId":"18727",
+              "icon":"inv_helmet_51"
+            }
           ]
         },
         {
           "id": 2,
           "name": "neck",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Cannon Master Willey",
+              "dropRate":"36%",
+              "itemId":"22403",
+              "icon":"inv_jewelry_necklace_10"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Balnazzar",
+              "dropRate":"19%",
+              "itemId":"12103",
+              "icon":"inv_jewelry_talisman_08"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Vectus",
+              "dropRate":"7%",
+              "itemId":"18691",
+              "icon":"inv_jewelry_necklace_06"
+            }
           ]
         },
         {
           "id": 3,
           "name": "shoulders",
           "items": [
-
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Mini Bosses",
+              "dropRate":"2%",
+              "itemId":"18681",
+              "icon":"inv_shoulder_05"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"14112",
+              "icon":"inv_shoulder_23"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10028",
+              "icon":"inv_shoulder_25"
+            }
           ]
         },
         {
           "id": 4,
           "name": "back",
           "items": [
-
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "",
+              "instance": "Stratholme",
+              "boss": "Archivist Galford",
+              "dropRate": "22%",
+              "itemId": "13386",
+              "icon": "inv_misc_cape_19"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"BoE World Drop",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10249",
+              "icon":"inv_misc_cape_20"
+            },
+            {
+              "id": 3,
+              "stage1": true,
+              "stage2": true,
+              "location": "Quest: Wanted: Vile Priestess Hexx and Her Minions",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "19121",
+              "icon": "inv_misc_cape_17"
+            }
           ]
         },
         {
           "id": 5,
           "name": "chest",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19682",
+              "icon":"inv_chest_cloth_07"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"14136",
+              "icon":"inv_chest_cloth_49"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"14106",
+              "icon":"inv_chest_cloth_09"
+            }
           ]
         },
         {
           "id": 6,
           "name": "bracers",
           "items": [
-
+            {
+              "id": 1,
+              "stage1": false,
+              "stage2": true,
+              "location": "",
+              "instance": "DM:N",
+              "boss": "Guard Slip'kik/Mol'dar",
+              "dropRate": "8%",
+              "itemId": "18497",
+              "icon": "inv_bracer_13"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10248",
+              "icon":"inv_bracer_07"
+            }
           ]
         },
         {
           "id": 7,
           "name": "mh",
           "items": [
-
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Baron Rivendare",
+              "dropRate":"17%",
+              "itemId":"13349",
+              "icon":"inv_mace_07"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"13964",
+              "icon":"inv_weapon_shortblade_25"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scarlet Monastery",
+              "boss":"Arcanist Doan",
+              "dropRate":"25%",
+              "itemId":"7714",
+              "icon":"inv_weapon_shortblade_07"
+            }
           ]
         },
         {
           "id": 8,
           "name": "oh",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"AV - Exalted",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19309",
+              "icon":"inv_misc_book_06"
+            },
+            {
+              "id":2,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"12%",
+              "itemId":"22253",
+              "icon":"inv_misc_book_06"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: It's Dangerous to Go Alone",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"11904",
+              "icon":"inv_ore_arcanite_02"
+            }
           ]
         },
         {
           "id": 9,
           "name": "hands",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"18407",
+              "icon":"inv_gauntlets_19"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"LBRS",
+              "boss":"Quartermaster ZIgris",
+              "dropRate":"14%",
+              "itemId":"13253",
+              "icon":"inv_gauntlets_14"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: Winterfall Activity",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"21318",
+              "icon":"inv_gauntlets_24"
+            }
           ]
         },
         {
           "id": 10,
           "name": "belt",
           "items": [
-
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Kirtonos the Herald",
+              "dropRate":"11%",
+              "itemId":"13956",
+              "icon":"inv_belt_12"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"4329",
+              "icon":"inv_belt_06"
+            }
           ]
         },
         {
           "id": 11,
           "name": "legs",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19683",
+              "icon":"inv_pants_cloth_14"
+            },
+            {
+              "id": 2,
+              "stage1": true,
+              "stage2": true,
+              "location": "",
+              "instance": "LBRS",
+              "boss": "Highlord Omokk",
+              "dropRate": "17%",
+              "itemId": "13170",
+              "icon": "inv_pants_13"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"14107",
+              "icon":"inv_pants_06"
+            }
           ]
         },
         {
           "id": 12,
           "name": "boots",
           "items": [
-
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19684",
+              "icon":"inv_boots_cloth_02"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "instance":"Stratholme",
+              "boss":"Maleki the Pallid",
+              "dropRate":"20%",
+              "dropRate":"",
+              "itemId":"18735",
+              "icon":"inv_boots_03"
+            }
           ]
         },
         {
           "id": 13,
           "name": "ring",
           "items": [
-
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "Quest: The Princess Saved?",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "12545",
+              "icon": "inv_jewelry_ring_05"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"22433",
+              "icon":"inv_jewelry_ring_16"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"BoE World Drop",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"13001",
+              "icon":"inv_jewelry_ring_12"
+            }
           ]
         },
         {
           "id": 14,
           "name": "trinket",
           "items": [
-
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"Jed Runewatcher",
+              "dropRate":"33%",
+              "itemId":"12930",
+              "icon":"inv_misc_root_02"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"BRD",
+              "boss":"Ambassador Flamelash",
+              "dropRate":"17%",
+              "itemId":"11832",
+              "icon":"inv_jewelry_amulet_07"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: General Drakkisath's Demise/For the Horde!",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"13968",
+              "icon":"inv_jewelry_talisman_08"
+            }
           ]
         },
         {
           "id": 15,
           "name": "ranged",
           "items": [
-
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "BoE World Drop",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "15282",
+              "icon": "inv_wand_06"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"13938",
+              "icon":"inv_misc_bone_taurenskull_01"
+            }
           ]
         }
       ]
     }
   ]
-},
+  },
   {
   "id": 2,
   "class": "warrior",
@@ -1021,7 +1457,7 @@
               "stage2":true,
               "location":"",
               "instance":"BRD",
-              "boss":"Vault of the seven",
+              "boss":"Tomb of the Seven",
               "dropRate":"23%",
               "itemId":"11927",
               "icon":"inv_pants_04"
@@ -1232,7 +1668,7 @@
               "id":1,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Blacksmithing",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1244,9 +1680,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Stratholme",
+              "boss":"The Unforgiven",
+              "dropRate":"20%",
               "itemId":"13404",
               "icon":"inv_misc_bandana_01"
             },
@@ -1255,9 +1691,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"18%",
               "itemId":"12587",
               "icon":"inv_helmet_46"
             }
@@ -1271,7 +1707,7 @@
               "id":1,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: In Dreams",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1289,9 +1725,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Pyroguard Emberseer",
+              "dropRate":"20%",
               "itemId":"12927",
               "icon":"inv_shoulder_10"
             },
@@ -1300,9 +1736,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"18%",
               "itemId":"16733",
               "icon":"inv_shoulder_30"
             }
@@ -1317,9 +1753,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Stratholme",
+              "boss":"Baron Rivendare",
+              "dropRate":"17%",
               "itemId":"13340",
               "icon":"inv_misc_cape_20"
             }
@@ -1334,9 +1770,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"BRD - Ring of Law",
+              "boss":"Gorosh the Dervish",
+              "dropRate":"15%",
               "itemId":"11726",
               "icon":"inv_chest_chain_15"
             },
@@ -1345,9 +1781,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Scholomance",
+              "boss":"Mini Bosses",
+              "dropRate":"2%",
               "itemId":"14637",
               "icon":"inv_chest_leather_03"
             },
@@ -1356,9 +1792,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
               "itemId":"13944",
               "icon":"inv_chest_chain_17"
             },
@@ -1367,9 +1803,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"BRD",
+              "boss":"Tomb of the Seven",
+              "dropRate":"23%",
               "itemId":"11926",
               "icon":"inv_chest_chain_07"
             }
@@ -1384,9 +1820,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"18%",
               "itemId":"12936",
               "icon":"inv_bracer_17"
             },
@@ -1395,9 +1831,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Stratholme",
+              "boss":"Timmy the Cruel",
+              "dropRate":"20%",
               "itemId":"13400",
               "icon":"inv_bracer_17"
             }
@@ -1412,9 +1848,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"BRD",
+              "boss":"Emperor Dagran Thaurissan",
+              "dropRate":"2%",
               "itemId":"11684",
               "icon":"spell_frost_frostbrand"
             },
@@ -1423,9 +1859,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"16%",
               "itemId":"12940",
               "icon":"inv_sword_43"
             }
@@ -1440,9 +1876,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"1%",
               "itemId":"12590",
               "icon":"inv_weapon_shortblade_25"
             },
@@ -1451,9 +1887,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"Rend",
+              "dropRate":"16%",
               "itemId":"12939",
               "icon":"inv_sword_40"
             }
@@ -1467,7 +1903,7 @@
               "id":1,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"BoE World Drop",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1478,7 +1914,7 @@
               "id":2,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Leatherworking",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1489,7 +1925,7 @@
               "id":3,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: Maxwell's Mission/Warlord's Command",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1501,9 +1937,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"LBRS",
+              "boss":"Overlord Wyrmthalak",
+              "dropRate":"20%",
               "itemId":"13162",
               "icon":"inv_gauntlets_29"
             }
@@ -1518,9 +1954,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"33%",
               "itemId":"13142",
               "icon":"inv_belt_33"
             },
@@ -1528,7 +1964,7 @@
               "id":2,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: Maxwell's Mission/Warlord's Command",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1545,7 +1981,7 @@
               "id":1,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Blacksmithing",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1556,7 +1992,7 @@
               "id":2,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Leatherworking",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1568,9 +2004,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"The Beast",
+              "dropRate":"14%",
               "itemId":"12963",
               "icon":"inv_pants_06"
             }
@@ -1585,9 +2021,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Scholomance",
+              "boss":"Mini Bosses",
+              "dropRate":"2%",
               "itemId":"14616",
               "icon":"inv_boots_01"
             },
@@ -1596,9 +2032,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Scholomance",
+              "boss":"Kirtonos the Herald",
+              "dropRate":"11%",
               "itemId":"13967",
               "icon":"inv_boots_plate_04"
             },
@@ -1607,9 +2043,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"LBRS",
+              "boss":"Halycon",
+              "dropRate":"14%",
               "itemId":"13210",
               "icon":"inv_boots_wolf"
             }
@@ -1621,9 +2057,9 @@
           "items": [
             {
               "id":1,
-              "stage1":true,
+              "stage1":false,
               "stage2":true,
-              "location":"",
+              "location":"AV - Exalted",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1635,9 +2071,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"Maraudon",
+              "boss":"Princess Theradras",
+              "dropRate":"26%",
               "itemId":"17713",
               "icon":"inv_jewelry_ring_17"
             },
@@ -1646,20 +2082,20 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"33%",
               "itemId":"13098",
               "icon":"inv_jewelry_ring_18"
             },
             {
               "id":4,
-              "stage1":true,
+              "stage1":false,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"DM:N",
+              "boss":"Tribute",
+              "dropRate":"17%",
               "itemId":"18500",
               "icon":"inv_jewelry_ring_13"
             }
@@ -1674,9 +2110,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"BRD",
+              "boss":"Emperor Dagran Thaurissan",
+              "dropRate":"19%",
               "itemId":"11815",
               "icon":"inv_jewelry_talisman_01"
             },
@@ -1684,7 +2120,7 @@
               "id":2,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: Voodoo Feathers",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1695,7 +2131,7 @@
               "id":3,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: General Drakkisath's Demise/For the Horde!",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1706,7 +2142,7 @@
               "id":4,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: Job Opening: Guard Captain of Revantusk Village",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1721,12 +2157,12 @@
           "items": [
             {
               "id":1,
-              "stage1":true,
+              "stage1":false,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"DM:E",
+              "boss":"Zevrim Thornhoof",
+              "dropRate":"20%",
               "itemId":"18323",
               "icon":"inv_weapon_bow_03"
             },
@@ -1735,9 +2171,9 @@
               "stage1":true,
               "stage2":true,
               "location":"",
-              "instance":"",
-              "boss":"",
-              "dropRate":"",
+              "instance":"LBRS",
+              "boss":"Shadow Hunter Vosh'gajin",
+              "dropRate":"8%",
               "itemId":"12651",
               "icon":"inv_weapon_crossbow_04"
             },
@@ -1745,7 +2181,7 @@
               "id":3,
               "stage1":true,
               "stage2":true,
-              "location":"",
+              "location":"Quest: The Scarlet Oracle, Demetria/Order Must Be Restored",
               "instance":"",
               "boss":"",
               "dropRate":"",
@@ -1760,14 +2196,263 @@
           "items": [
             {
               "id":1,
-              "stage1":true,
+              "stage1":false,
               "stage2":true,
-              "location":"",
+              "location":"AV - Exalted",
               "instance":"",
               "boss":"",
               "dropRate":"",
               "itemId":"19323",
               "icon":"inv_hammer_13"
+            },
+            {
+              "id":2,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"DM:N",
+              "boss":"Tribute",
+              "dropRate":"1%",
+              "itemId":"18538",
+              "icon":"inv_axe_10"
+            },
+            {
+              "id":3,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"DM:N",
+              "boss":"King Gordok",
+              "dropRate":"23%",
+              "itemId":"18520",
+              "icon":"inv_sword_11"
+            },
+            {
+              "id":4,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"LBRS",
+              "boss":"Spirestone Battle Lord",
+              "dropRate":"60%",
+              "itemId":"13285",
+              "icon":"inv_weapon_halberd_11"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  },
+  {
+  "id": 3,
+  "class": "mage",
+  "img": "data:image/jpeg;base64,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",
+  "specs": [
+    {
+      "id": 5,
+      "name": "frost",
+      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAcEBggDAgX/xAArEAABAwMEAgAFBQEAAAAAAAABAgMEAAURBhIhMQdRExQVQUIIFiIyYXH/xAAaAQABBQEAAAAAAAAAAAAAAAAGAAIDBAUB/8QAIBEAAQQCAgMBAAAAAAAAAAAAAQACAxEEIQVBEyIxUf/aAAwDAQACEQMRAD8AbGg9OaJ1Zpu33AaQtXxn4u91plIbQpYVtJbJ44IIIPPWfdVPzB4Z0rJmRrna7UzGVFPyz0MgtMvgJJHKOlcgbh2O+q+B+mvyNZJdka0602/HnRt8hKihKm1H+IyCf6qJAx0O+eat2rbrLl3J9Dz7sNx2OcshRSU7SSFDPBJyRzz66xRZFA+Sc0706v8AFFJIY26+rH/lLTVltFntRt4nfVwhz6sh5shttaVlICFfkOOx6pcfetBeYXrpeY0BE95z5VLRMdv4QJQvhK0jrOVpCu/yNIq9w5EG5PxpMYRnW1bVtD8SOx2ayuVwDjSWBpSiQSC15i3GZFbLcaZJZQTkpbdUkE+8A0VDorISV58PX3U1v1S3b9MyUMzrkkxEqVt5CuxlXApiHyfeEMft+6zCuRAmpdVIfeK1laU7FN7hxtzlQ9UhmnFtLC21qQodEHBFBcWV7iok1p4fJSYtVtJwa9tFawvEuyay08zDkqbYkAF1lTZxhZHPHo1m/Utllwp7zcrKShRSSftUvSd5ksSmnS+kls5CT1t+4P8AlXq7ogahtDsiA8gyUjC0KIJJHr3RA5rOSgs6cPgVdrfEdbCTC07FlJPRoqbdIzsee608jasHkUUIvgka4ilZ0VFlIDb7jac4SspGf8NcxRRUS4urDikKwk4zUy2S5MeTuYeW2faTiiirsD3Aso9pvRVjU+Z4S/KaaW7jaVbeT/2iiiiEiztMX//Z",
+      "slots": [
+        {
+          "id": 1,
+          "name": "head",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"12%",
+              "itemId":"22267",
+              "icon":"inv_helmet_62"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Engineering",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10504",
+              "icon":"inv_helmet_44"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Magistrate Barthilas",
+              "dropRate":"17%",
+              "itemId":"18727",
+              "icon":"inv_helmet_51"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "neck",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Cannon Master Willey",
+              "dropRate":"36%",
+              "itemId":"22403",
+              "icon":"inv_jewelry_necklace_10"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Stratholme",
+              "boss":"Balnazzar",
+              "dropRate":"19%",
+              "itemId":"12103",
+              "icon":"inv_jewelry_talisman_08"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "shoulders",
+          "items": [
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"BRD",
+              "boss":"Warder Stilgiss",
+              "dropRate":"25%",
+              "itemId":"11782",
+              "icon":"inv_shoulder_02"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Mini Bosses",
+              "dropRate":"2%",
+              "itemId":"18681",
+              "icon":"inv_shoulder_05"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "back",
+          "items": [
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "",
+              "instance": "Stratholme",
+              "boss": "Archivist Galford",
+              "dropRate": "22%",
+              "itemId": "13386",
+              "icon": "inv_misc_cape_19"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"BoE World Drop",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"10249",
+              "icon":"inv_misc_cape_20"
+            },
+            {
+              "id": 3,
+              "stage1": true,
+              "stage2": true,
+              "location": "Quest: Wanted: Vile Priestess Hexx and Her Minions",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "19121",
+              "icon": "inv_misc_cape_17"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "chest",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19682",
+              "icon":"inv_chest_cloth_07"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"LBRS",
+              "boss":"Firebrand Pyromancer",
+              "dropRate":"18%",
+              "itemId":"14152",
+              "icon":"inv_chest_cloth_38"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"14136",
+              "icon":"inv_chest_cloth_49"
+            },
+            {
+              "id":4,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Ras Frostwhisper",
+              "dropRate":"16%",
+              "itemId":"14340",
+              "icon":"inv_chest_cloth_46"
+            }
+
+          ]
+        },
+        {
+          "id": 6,
+          "name": "bracers",
+          "items": [
+            {
+              "id": 1,
+              "stage1": false,
+              "stage2": true,
+              "location": "",
+              "instance": "DM:N",
+              "boss": "Guard Slip'kik/Mol'dar",
+              "dropRate": "8%",
+              "itemId": "18497",
+              "icon": "inv_bracer_13"
             },
             {
               "id":2,
@@ -1777,150 +2462,805 @@
               "instance":"",
               "boss":"",
               "dropRate":"",
-              "itemId":"18538",
-              "icon":"inv_axe_10"
+              "itemId":"10248",
+              "icon":"inv_bracer_07"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "mh",
+          "items": [
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"13964",
+              "icon":"inv_weapon_shortblade_25"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Maraudon",
+              "boss":"Tinkerer Gizlock",
+              "dropRate":"33%",
+              "itemId":"17719",
+              "icon":"inv_sword_14"
             },
             {
               "id":3,
               "stage1":true,
               "stage2":true,
               "location":"",
+              "instance":"Scarlet Monastery",
+              "boss":"Arcanist Doan",
+              "dropRate":"25%",
+              "itemId":"7714",
+              "icon":"inv_weapon_shortblade_07"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "oh",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"AV - Exalted",
               "instance":"",
               "boss":"",
               "dropRate":"",
-              "itemId":"18520",
-              "icon":"inv_sword_11"
+              "itemId":"19310",
+              "icon":"inv_misc_book_11"
             },
             {
-              "id":4,
+              "id":2,
+              "stage1":false,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"General Drakkisath",
+              "dropRate":"12%",
+              "itemId":"22253",
+              "icon":"inv_misc_book_06"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: It's Dangerous to Go Alone",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"11904",
+              "icon":"inv_ore_arcanite_02"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "hands",
+          "items": [
+            {
+              "id":1,
               "stage1":true,
               "stage2":true,
               "location":"",
+              "instance":"LBRS",
+              "boss":"Quartermaster ZIgris",
+              "dropRate":"14%",
+              "itemId":"13253",
+              "icon":"inv_gauntlets_14"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Ras Frostwhisper",
+              "dropRate":"16%",
+              "itemId":"18693",
+              "icon":"inv_gauntlets_16"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: Winterfall Activity",
               "instance":"",
               "boss":"",
               "dropRate":"",
-              "itemId":"13285",
-              "icon":"inv_weapon_halberd_11"
+              "itemId":"21318",
+              "icon":"inv_gauntlets_24"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "belt",
+          "items": [
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Kirtonos the Herald",
+              "dropRate":"11%",
+              "itemId":"13956",
+              "icon":"inv_belt_12"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"4329",
+              "icon":"inv_belt_06"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "legs",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19683",
+              "icon":"inv_pants_cloth_14"
+            },
+            {
+              "id": 2,
+              "stage1": true,
+              "stage2": true,
+              "location": "",
+              "instance": "LBRS",
+              "boss": "Highlord Omokk",
+              "dropRate": "17%",
+              "itemId": "13170",
+              "icon": "inv_pants_13"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"13871",
+              "icon":"inv_pants_08"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "boots",
+          "items": [
+            {
+              "id":1,
+              "stage1":false,
+              "stage2":true,
+              "location":"Taloring",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"19684",
+              "icon":"inv_boots_cloth_02"
+            },
+            {
+              "id": 2,
+              "stage1": true,
+              "stage2": true,
+              "location": "",
+              "instance": "BRD",
+              "boss": "Golem Lord Argelmach",
+              "dropRate": "31%",
+              "itemId": "11822",
+              "icon": "inv_boots_05"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "ring",
+          "items": [
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "Quest: The Princess Saved?",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "12545",
+              "icon": "inv_jewelry_ring_05"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"22433",
+              "icon":"inv_jewelry_ring_16"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"BoE World Drop",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"13001",
+              "icon":"inv_jewelry_ring_12"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "trinket",
+          "items": [
+            {
+              "id":1,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"UBRS",
+              "boss":"Jed Runewatcher",
+              "dropRate":"33%",
+              "itemId":"12930",
+              "icon":"inv_misc_root_02"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"BRD",
+              "boss":"Ambassador Flamelash",
+              "dropRate":"17%",
+              "itemId":"11832",
+              "icon":"inv_jewelry_amulet_07"
+            },
+            {
+              "id":3,
+              "stage1":true,
+              "stage2":true,
+              "location":"Quest: General Drakkisath's Demise/For the Horde!",
+              "instance":"",
+              "boss":"",
+              "dropRate":"",
+              "itemId":"13968",
+              "icon":"inv_jewelry_talisman_08"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "ranged",
+          "items": [
+            {
+              "id": 1,
+              "stage1": true,
+              "stage2": true,
+              "location": "BoE World Drop",
+              "instance": "",
+              "boss": "",
+              "dropRate": "",
+              "itemId": "15282",
+              "icon": "inv_wand_06"
+            },
+            {
+              "id":2,
+              "stage1":true,
+              "stage2":true,
+              "location":"",
+              "instance":"Scholomance",
+              "boss":"Darkmaster Gandling",
+              "dropRate":"14%",
+              "itemId":"13938",
+              "icon":"inv_misc_bone_taurenskull_01"
             }
           ]
         }
       ]
     }
   ]
-},
+  },
   {
-    "id": 3,
-    "class": "mage",
-    "img": "data:image/jpeg;base64,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",
+    "id": 4,
+    "class": "rogue",
+    "img": "data:image/jpeg;base64,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",
     "specs": [
       {
-        "id": 5,
-        "name": "frost",
-        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAcEBggDAgX/xAArEAABAwMEAgAFBQEAAAAAAAABAgMEAAURBhIhMQdRExQVQUIIFiIyYXH/xAAaAQABBQEAAAAAAAAAAAAAAAAGAAIDBAUB/8QAIBEAAQQCAgMBAAAAAAAAAAAAAQACAxEEIQVBEyIxUf/aAAwDAQACEQMRAD8AbGg9OaJ1Zpu33AaQtXxn4u91plIbQpYVtJbJ44IIIPPWfdVPzB4Z0rJmRrna7UzGVFPyz0MgtMvgJJHKOlcgbh2O+q+B+mvyNZJdka0602/HnRt8hKihKm1H+IyCf6qJAx0O+eat2rbrLl3J9Dz7sNx2OcshRSU7SSFDPBJyRzz66xRZFA+Sc0706v8AFFJIY26+rH/lLTVltFntRt4nfVwhz6sh5shttaVlICFfkOOx6pcfetBeYXrpeY0BE95z5VLRMdv4QJQvhK0jrOVpCu/yNIq9w5EG5PxpMYRnW1bVtD8SOx2ayuVwDjSWBpSiQSC15i3GZFbLcaZJZQTkpbdUkE+8A0VDorISV58PX3U1v1S3b9MyUMzrkkxEqVt5CuxlXApiHyfeEMft+6zCuRAmpdVIfeK1laU7FN7hxtzlQ9UhmnFtLC21qQodEHBFBcWV7iok1p4fJSYtVtJwa9tFawvEuyay08zDkqbYkAF1lTZxhZHPHo1m/Utllwp7zcrKShRSSftUvSd5ksSmnS+kls5CT1t+4P8AlXq7ogahtDsiA8gyUjC0KIJJHr3RA5rOSgs6cPgVdrfEdbCTC07FlJPRoqbdIzsee608jasHkUUIvgka4ilZ0VFlIDb7jac4SspGf8NcxRRUS4urDikKwk4zUy2S5MeTuYeW2faTiiirsD3Aso9pvRVjU+Z4S/KaaW7jaVbeT/2iiiiEiztMX//Z",
+        "id": 6,
+        "name": "combat",
+        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAYDBAcFCP/EACwQAAIBAgUDAwQCAwAAAAAAAAECAwQRAAUGEiETMVEHIkEVMkJhI6GBscH/xAAYAQEBAQEBAAAAAAAAAAAAAAAFBAYDB//EACERAQACAgICAgMAAAAAAAAAAAEAAgMREiEEMQUTQYHw/9oADAMBAAIRAxEAPwDyOxeSQtIzMzNdmY3JJPcnD1oTR02uNUZo9Blcj0NHaR4KRumg3GygubiJPazMxvYKQLkjHJiySP6LJPIgjrDIr0wZ7WjLAc9+TyQPjDZ6T+mutNVvnlNkebnK4MvEMlcyTOFle52Kuz7mUGRubAW78jHC1+W+LLK47UqcjYsfJPTSeDLaCOlkyuUNI5lioOuenGDtAuy8sWDgk2NuecLmtqkUNHSZZRtStTKHdWgfessu8ggsDZ0X2kG3JJPZsOWaZhqXL6htJGeJszmUmuaJi8yx8kxttATedx3ncAFJF7nEWYZRkkb09dSRx/U6eoQmpLhoolF2LRIrMm7cPuNwtiR2GDK5b8j7Oz8RO2Ktarj6WY0slTAWEeYVEW9i7bZyu4nuTbuf3gwvakzFcxzurq4v44pJnaNRzZSxI/3gw0bSAWHceafL1joekobpUdPuKzEAOVJAKjzz2+ecMmn9XLpzLxRadeRWqIFSsjU7Ule+5AfI3bePAt+WOdNXVFBV1NHmEiToS0bEt1EPFvay+LmxBt2xFluUUEFQ9WtU0kjg2R2+1vhrjuB3t/eBHO0VZ6Vj+KweXix46OnffYP6JoPq0dM6I9Mocsqic91bntJKZZ0qbCMOSJJ3Yfcm4FEQW3FWc3vjDZNQV7aHpclo5kp6SmLrMDKBJK0jFjtXuEAsL/s+SMXtTVc9TqF6itSTMVVAl6prI21dqj2kbUAttF+AB+8Vsn05S1FP1alnMca9TqI/Eg/L4uALf55xfVpwFJi82G1M16Dv2RUAA48YMWK+oSSqc0i9CnBtGg77fJPycGKy7DXQ6mkZBvqsqmrKiaSSUC92N+5sf6xdo0UyseQyxe0g8i3jBgwNc7Zq8WS7Qd/25BHN16SesnihknjdF3lBdgxCnd54OEXVhky2umyqkmkjo+p1emD+R/4PGDBi3B7g3mqUGc2ipEqI3d3cEPt9pHgfrBgwYrgyu5//2Q==",
         "slots": [
           {
             "id": 1,
             "name": "head",
             "items": [
-
+              {
+                "id": 1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme",
+                "boss":"The Unforgiven",
+                "dropRate":"20%",
+                "itemId":"13404",
+                "icon":"inv_misc_bandana_01"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Rend",
+                "dropRate":"18%",
+                "itemId":"12587",
+                "icon":"inv_helmet_46"
+              }
             ]
           },
           {
             "id": 2,
             "name": "neck",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: In Dreams",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15411",
+                "icon":"inv_jewelry_talisman_07"
+              }
             ]
           },
           {
             "id": 3,
             "name": "shoulders",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Pyroguard Emberseer",
+                "dropRate":"20%",
+                "itemId":"12927",
+                "icon":"inv_shoulder_10"
+              }
             ]
           },
           {
             "id": 4,
             "name": "back",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme",
+                "boss":"Baron Rivendare",
+                "dropRate":"17%",
+                "itemId":"13340",
+                "icon":"inv_misc_cape_20"
+              }
             ]
           },
           {
             "id": 5,
             "name": "chest",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "boss":"Mini Bosses",
+                "dropRate":"2%",
+                "itemId":"14637",
+                "icon":"inv_chest_leather_03"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Solakar Flamewreath",
+                "dropRate":"20%",
+                "itemId":"12603",
+                "icon":"inv_chest_plate06"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "boss":"Darkmaster Gandling",
+                "dropRate":"14%",
+                "itemId":"13944",
+                "icon":"inv_chest_chain_17"
+              }
             ]
           },
           {
             "id": 6,
             "name": "bracers",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"The Beast",
+                "dropRate":"14%",
+                "itemId":"12966",
+                "icon":"inv_bracer_07"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"BoE Instance Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"16710",
+                "icon":"inv_bracer_07"
+              }
             ]
           },
           {
             "id": 7,
             "name": "mh",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "boss":"Emperor Dagran Thaurissan",
+                "dropRate":"2%",
+                "itemId":"11684",
+                "icon":"spell_frost_frostbrand"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Rend",
+                "dropRate":"16%",
+                "itemId":"12940",
+                "icon":"inv_sword_43"
+              }
             ]
           },
           {
             "id": 8,
             "name": "oh",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Rend",
+                "dropRate":"1%",
+                "itemId":"12590",
+                "icon":"inv_weapon_shortblade_25"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"Rend",
+                "dropRate":"16%",
+                "itemId":"12939",
+                "icon":"inv_sword_40"
+              }
             ]
           },
           {
             "id": 9,
             "name": "hands",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"Leatherworking",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15063",
+                "icon":"inv_gauntlets_26"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme",
+                "boss":"Skul",
+                "dropRate":"33%",
+                "itemId":"13395",
+                "icon":"inv_gauntlets_27"
+              }
             ]
           },
           {
             "id": 10,
             "name": "belt",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Maxwell's Mission/Warlord's Command",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13962",
+                "icon":"inv_belt_15"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "boss":"Quartermaster Zigris",
+                "dropRate":"16%",
+                "itemId":"13252",
+                "icon":"inv_belt_10"
+              }
             ]
           },
           {
             "id": 11,
             "name": "legs",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"Leatherworking",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15062",
+                "icon":"inv_pants_wolf"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"The Beast",
+                "dropRate":"14%",
+                "itemId":"12963",
+                "icon":"inv_pants_06"
+              }
             ]
           },
           {
             "id": 12,
             "name": "boots",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "boss":"Halycon",
+                "dropRate":"14%",
+                "itemId":"13210",
+                "icon":"inv_boots_wolf"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "boss":"Princess Moira Bronzebeard",
+                "dropRate":"25%",
+                "itemId":"12553",
+                "icon":"inv_boots_02"
+              }
             ]
           },
           {
             "id": 13,
             "name": "ring",
             "items": [
-
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"AV - Exalted",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19325",
+                "icon":"inv_jewelry_ring_35"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Maraudon",
+                "boss":"Princess Theradras",
+                "dropRate":"26%",
+                "itemId":"17713",
+                "icon":"inv_jewelry_ring_17"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "boss":"General Drakkisath",
+                "dropRate":"33%",
+                "itemId":"13098",
+                "icon":"inv_jewelry_ring_18"
+              },
+              {
+                "id":4,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "boss":"Tribute",
+                "dropRate":"17%",
+                "itemId":"18500",
+                "icon":"inv_jewelry_ring_13"
+              }
             ]
           },
           {
             "id": 14,
             "name": "trinket",
             "items": [
-
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "boss":"Emperor Dagran Thaurissan",
+                "dropRate":"19%",
+                "itemId":"11815",
+                "icon":"inv_jewelry_talisman_01"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"Quest: Garona: A Study on Stealth and Treachery",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18465",
+                "icon":"inv_jewelry_talisman_10"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: General Drakkisath's Demise/For the Horde!",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13965",
+                "icon":"inv_misc_armorkit_09"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Job Opening: Guard Captain of Revantusk Village",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19120",
+                "icon":"inv_misc_rune_07"
+              }
             ]
           },
           {
             "id": 15,
             "name": "ranged",
             "items": [
-
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:E",
+                "boss":"Zevrim Thornhoof",
+                "dropRate":"20%",
+                "itemId":"18323",
+                "icon":"inv_weapon_bow_03"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "boss":"Shadow Hunter Vosh'gajin",
+                "dropRate":"8%",
+                "itemId":"12651",
+                "icon":"inv_weapon_crossbow_04"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"BoE World Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"2100",
+                "icon":"inv_weapon_rifle_06"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: The Scarlet Oracle, Demetria/Order Must Be Restored",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"16996",
+                "icon":"inv_weapon_bow_04"
+              }
             ]
           }
         ]
