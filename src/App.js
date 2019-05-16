@@ -28,6 +28,59 @@ export default class App extends React.Component {
   componentDidMount() {
     this.getClass();
     this.getSlots();
+
+    //this.test();
+  }
+
+  findClass(c) {
+    return classes => classes.id === c;
+  }
+  findSpec(s) {
+    return specs => specs.id === s;
+  }
+
+  test() {
+    fetch('./data.json')
+      .then((response) => response.json())
+      .then((responseJson) => {
+
+        let party = [{class: 1, spec: 1}, {class: 2, spec: 3}, {class: 2, spec: 4}];
+        let partyItems = [];
+        for (var key in party) {
+          let currentClass = responseJson.find(this.findClass(party[key].class));
+          let currentSpec = currentClass.specs.find(this.findSpec(party[key].spec));
+
+          for( let slot in currentSpec.slots ) {
+            for ( let item in currentSpec.slots[slot].items) {
+              let drop = currentSpec.slots[slot].items[item];
+              if (drop.bossId) {
+                let partyItem = {
+                  bossId: drop.bossId,
+                  itemId: drop.itemId,
+                  itemName: drop.name,
+                  quality: drop.quality,
+                  icon: drop.icon,
+                  specIcon: currentSpec.img
+                }
+                partyItems.push(partyItem);
+              }
+              //partyItems.push(currentSpec.slots[slot].items[item]);
+            }
+          }
+        }
+
+        console.log(partyItems);
+
+
+        /*const items = [];
+        for( let prop in currentSpec.slots ) {
+            items.push(currentSpec.slots[prop]);
+        }
+
+        this.setState({
+            items: items
+        });*/
+      });
   }
 
   resetState() {
@@ -133,22 +186,10 @@ export default class App extends React.Component {
   }
 
   getItem(item) {
-    this.toggleLoading(true);
-
-    const prefix = 'https://classicdb.ch/ajax.php?item=';
-    const proxyurl = "https://cors-anywhere.herokuapp.com/";
-
-    fetch(proxyurl + prefix + item.itemId)
-      .then(response => response.text())
-      .then(data => {
-        let tooltip = new RegExp(/(?<=tooltip_enus: ')(.*)(?=',)/);
-        let res = tooltip.exec(data)
-        this.toggleLoading(false);
-        this.setState({
-          activeTooltip: this.fixTooltip(res[0]),
-          activeInfo: item
-        })
-      })
+    this.setState({
+      activeTooltip: item.tooltip,
+      activeInfo: item
+    })
   }
 
   render() {
