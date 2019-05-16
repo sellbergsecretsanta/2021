@@ -1,0 +1,548 @@
+[
+   {
+     "id": "brd",
+     "name": "Blackrock Depths",
+     "bosses": [
+       {
+         "bossNr":0,
+         "id":"brd0",
+         "name":"High Interrogator Gerstahn",
+         "rare":false
+       },
+       {
+         "bossNr":1,
+         "id":"brd1",
+         "name":"Lord Roccor",
+         "rare":false
+       },
+       {
+         "bossNr":2,
+         "id":"brd2",
+         "name":"Houndmaster Grebmar",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL1",
+         "name":"Ring of Law - Anub'shiah",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL2",
+         "name":"Ring of Law - Eviscerator",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL3",
+         "name":"Ring of Law - Gorosh the Dervish",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL4",
+         "name":"Ring of Law - Grizzle",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL5",
+         "name":"Ring of Law - Hedrum the Creeper",
+         "rare":false
+       },
+       {
+         "bossNr":3,
+         "id":"brdRoL6",
+         "name":"Ring of Law - Ok'thor the Breaker",
+         "rare":false
+       },
+       {
+         "bossNr":4,
+         "id":"brd4",
+         "name":"Pyromancer Loregrain",
+         "rare":false
+       },
+       {
+         "bossNr":5,
+         "id":"brd5",
+         "name":"Warder Stilgiss & Verek",
+         "rare":false
+       },
+       {
+         "bossNr":6,
+         "id":"brd6",
+         "name":"Fineous Darkvire",
+         "rare":false
+       },
+       {
+         "bossNr":7,
+         "id":"brd7",
+         "name":"Lord Incendius",
+         "rare":false
+       },
+       {
+         "bossNr":8,
+         "id":"brd8",
+         "name":"Bael'Gar",
+         "rare":false
+       },
+       {
+         "bossNr":9,
+         "id":"brd9",
+         "name":"General Angerforge",
+         "rare":false
+       },
+       {
+         "bossNr":10,
+         "id":"brd10",
+         "name":"Golem Lord Argelmach",
+         "rare":false
+       },
+       {
+         "bossNr":11,
+         "id":"brd11",
+         "name":"Hurley Blackbreath",
+         "rare":false
+       },
+       {
+         "bossNr":12,
+         "id":"brd12",
+         "name":"Phalanx",
+         "rare":false
+       },
+       {
+         "bossNr":13,
+         "id":"brd13",
+         "name":"Ambassador Flamelash",
+         "rare":false
+       },
+       {
+         "bossNr":14,
+         "id":"brd14",
+         "name":"Tomb of Seven",
+         "rare":false
+       },
+       {
+         "bossNr":15,
+         "id":"brd15",
+         "name":"Magmus",
+         "rare":false
+       },
+       {
+         "bossNr":16,
+         "id":"brd16",
+         "name":"Princess Moira Bronzebeard",
+         "rare":false
+       },
+       {
+         "bossNr":17,
+         "id":"brd17",
+         "name":"Emperor Dagran Thaurissan",
+         "rare":false
+       }
+     ]
+   },
+  {
+    "id": "dme",
+    "name": "Dire Maul East",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"dme0",
+        "name":"Pusillin",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"dme1",
+        "name":"Lethtendris",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"dme2",
+        "name":"Hydrospawn",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"dme3",
+        "name":"Zevrim Thornhoof",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"dme4",
+        "name":"Alzzin the Wildshaper",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "dmw",
+    "name": "Dire Maul West",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"dmw0",
+        "name":"Tendris Warpwood",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"dmw1",
+        "name":"Magister Kalendris",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"dmw2",
+        "name":"Illyanna Ravenoak",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"dmw3",
+        "name":"Immol'thar",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"dmw4",
+        "name":"Lord Hel'nurath",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"dmw5",
+        "name":"Prince Tortheldrin",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "dmn",
+    "name": "Dire Maul North",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"dmn0",
+        "name":"Guard Slip'kik/Mol'dar",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"dmn1",
+        "name":"Captain Kromcrush",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"dmn2",
+        "name":"Cho'Rush the Observer",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"dmn3",
+        "name":"King Gordok",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"dmn4",
+        "name":"Tribute Chest",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "sch",
+    "name": "Scholomance",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"sch0",
+        "name":"Kirtonos the Herald",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"sch1",
+        "name":"Jandice Barov",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"sch2",
+        "name":"Rattlegore",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"sch3",
+        "name":"Vectus",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"sch4",
+        "name":"Ras Frostwhisper",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"sch5",
+        "name":"Mini Bosses",
+        "rare":false
+      },
+      {
+        "bossNr":6,
+        "id":"sch6",
+        "name":"Darkmaster Gandling",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "stratLive",
+    "name": "Stratholme Live",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"stratLive0",
+        "name":"Skul",
+        "rare":true
+      },
+      {
+        "bossNr":1,
+        "id":"stratLive1",
+        "name":"Hearthsinger Forresten",
+        "rare":true
+      },
+      {
+        "bossNr":2,
+        "id":"stratLive2",
+        "name":"The Unforgiven",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"stratLive3",
+        "name":"Timmy the Cruel",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"stratLive4",
+        "name":"Cannonmaster Willey",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"stratLive5",
+        "name":"Archivist Galford",
+        "rare":false
+      },
+      {
+        "bossNr":6,
+        "id":"stratLive6",
+        "name":"Balnazzar",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "stratUD",
+    "name": "Stratholme UD",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"stratUD0",
+        "name":"Magistrate Barthilas",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"stratUD1",
+        "name":"Baroness Anastari",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"stratUD2",
+        "name":"Nerub'enkan",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"stratUD3",
+        "name":"Maleki the Pallid",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"stratUD4",
+        "name":"Stonespine",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"stratUD5",
+        "name":"Ramstein the Gorger",
+        "rare":false
+      },
+      {
+        "bossNr":6,
+        "id":"stratUD6",
+        "name":"Baron Rivendare",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "lbrs",
+    "name": "Lower Blackrock Spire",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"lbrs0",
+        "name":"Burning Felguard",
+        "rare":true
+      },
+      {
+        "bossNr":1,
+        "id":"lbrs1",
+        "name":"Spirestone Butcher",
+        "rare":true
+      },
+      {
+        "bossNr":2,
+        "id":"lbrs2",
+        "name":"Spirestone Battle Lord",
+        "rare":true
+      },
+      {
+        "bossNr":3,
+        "id":"lbrs3",
+        "name":"Spirestone Lord Magus",
+        "rare":true
+      },
+      {
+        "bossNr":4,
+        "id":"lbrs4",
+        "name":"Highlord Omokk",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"lbrs5",
+        "name":"Shadow Hunter Vosh'gajin",
+        "rare":false
+      },
+      {
+        "bossNr":6,
+        "id":"lbrs6",
+        "name":"War Master Voone",
+        "rare":false
+      },
+      {
+        "bossNr":7,
+        "id":"lbrs7",
+        "name":"Bannok Grimaxe",
+        "rare":true
+      },
+      {
+        "bossNr":8,
+        "id":"lbrs8",
+        "name":"Mother Smolderweb",
+        "rare":false
+      },
+      {
+        "bossNr":9,
+        "id":"lbrs9",
+        "name":"Crystal Fang",
+        "rare":true
+      },
+      {
+        "bossNr":10,
+        "id":"lbrs10",
+        "name":"Quartermaster Zigris",
+        "rare":false
+      },
+      {
+        "bossNr":11,
+        "id":"lbrs11",
+        "name":"Halycon",
+        "rare":false
+      },
+      {
+        "bossNr":12,
+        "id":"lbrs12",
+        "name":"Gizrul the Slavener",
+        "rare":false
+      },
+      {
+        "bossNr":13,
+        "id":"lbrs13",
+        "name":"Ghok Bashguud",
+        "rare":true
+      },
+      {
+        "bossNr":14,
+        "id":"lbrs14",
+        "name":"Overlord Wyrmthalak",
+        "rare":false
+      }
+    ]
+  },
+  {
+    "id": "ubrs",
+    "name": "Upper Blackrock Spire",
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"ubrs0",
+        "name":"Pyroguard Emberseer",
+        "rare":false
+      },
+      {
+        "bossNr":1,
+        "id":"ubrs1",
+        "name":"Solakar Flamewreath",
+        "rare":false
+      },
+      {
+        "bossNr":2,
+        "id":"ubrs2",
+        "name":"Jed Runewatcher",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"ubrs3",
+        "name":"Gyth",
+        "rare":false
+      },
+      {
+        "bossNr":3,
+        "id":"ubrs4",
+        "name":"Rend Blackhand",
+        "rare":false
+      },
+      {
+        "bossNr":4,
+        "id":"ubrs5",
+        "name":"The Beast",
+        "rare":false
+      },
+      {
+        "bossNr":5,
+        "id":"ubrs6",
+        "name":"General Drakkisath",
+        "rare":false
+      }
+    ]
+  }
+]
