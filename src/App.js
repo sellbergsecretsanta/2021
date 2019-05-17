@@ -29,7 +29,7 @@ export default class App extends React.Component {
     this.getClass();
     this.getSlots();
 
-    //this.test();
+    this.test();
   }
 
   findClass(c) {
@@ -57,29 +57,34 @@ export default class App extends React.Component {
                 let partyItem = {
                   bossId: drop.bossId,
                   itemId: drop.itemId,
-                  itemName: drop.name,
+                  itemName: drop.itemName,
                   quality: drop.quality,
                   icon: drop.icon,
                   specIcon: currentSpec.img
                 }
                 partyItems.push(partyItem);
               }
-              //partyItems.push(currentSpec.slots[slot].items[item]);
             }
           }
         }
 
         console.log(partyItems);
-
-
-        /*const items = [];
-        for( let prop in currentSpec.slots ) {
-            items.push(currentSpec.slots[prop]);
-        }
-
-        this.setState({
-            items: items
-        });*/
+        var instanceLoot;
+        fetch('./instances.json')
+          .then((response) => response.json())
+          .then((responseJson) => {
+            responseJson.forEach((instance) =>
+              instance.bosses.slice().reverse().forEach((boss, index, object) =>
+                partyItems.find(item => item.bossId === boss.id)
+                ? boss.items = partyItems.filter(item => item.bossId === boss.id)
+                : instance.bosses.splice(object.length - 1 - index, 1)
+              )
+            )
+            console.log(responseJson);
+            /*this.setState({
+                instanceLoot: responseJson
+            });*/
+        });
       });
   }
 
