@@ -68,4 +68,21 @@ body {
   box-shadow: #f00 0 0 30px inset;
 }
 
+ul {
+  list-style-type: none;
+  padding:0;
+  font-size: 16px;
+}
 
+ul ul {
+  font-size: 14px;
+  padding-left:10px;
+}
+
+ul ul ul {
+   font-size: 12px;
+ }
+
+li {
+  padding-top:10px;
+}

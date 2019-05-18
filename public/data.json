@@ -1619,7 +1619,7 @@
                 "instance":"DM:N",
                 "bossId":"dmn1",
                 "boss":"Captain Kromcrush",
-                "dropRate":"",
+                "dropRate":"25%",
                 "itemId":"18503",
                 "icon":"inv_chest_chain_14",
                 "itemName":"Kromcrush's Chestplate",
