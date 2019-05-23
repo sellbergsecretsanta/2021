@@ -10,11 +10,10 @@ class Boss extends React.Component {
     );
 
     return (
-      <li>{this.props.boss.name}
-        <ul>
-          { boss }
-        </ul>
-      </li>
+      <div style={{paddingLeft: "20px"}}>
+        <h4>{this.props.boss.name}</h4>
+        { boss }
+      </div>
     );
   }
 }

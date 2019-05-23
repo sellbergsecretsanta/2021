@@ -9,9 +9,9 @@ class Instances extends React.Component {
     )));
 
     return (
-    <ul>
-      { instances }
-    </ul>
+      <div>
+        { instances }
+      </div>
     );
   }
 }

@@ -27,7 +27,8 @@ export default class InstanceLoot extends React.Component {
 
   resetState() {
     this.setState({
-      selectedSpec: ''
+      instances: [],
+      selectedSpec: '',
     });
   }
 
@@ -59,14 +60,14 @@ export default class InstanceLoot extends React.Component {
 
     if (specs.length === 1) {
       this.setState({selectedSpec: specs[0].id});
-      this.test();
+      this.getInstanceLoot();
     }
   }
 
   handleSelectSpec = (selectedSpec) => {
     this.resetState();
     this.setState({selectedSpec: selectedSpec.id});
-    this.test();
+    this.getInstanceLoot();
   }
 
   findClass(c) {
@@ -76,7 +77,7 @@ export default class InstanceLoot extends React.Component {
     return specs => specs.id === s;
   }
 
-  test() {
+  getInstanceLoot() {
     fetch('./data.json')
       .then((response) => response.json())
       .then((responseJson) => {
@@ -126,12 +127,12 @@ export default class InstanceLoot extends React.Component {
                   ? boss.items = partyItems.filter(item => item.bossId === boss.id)
                   : instance.bosses.splice(object.length - 1 - index, 1)
 
-                  console.log(boss.items.length)
+                  //console.log(boss.items.length)
                   instance.nrOfDrops += boss.items.length
                 }
               )
             )
-            console.log(responseJson);
+            //console.log(responseJson);
             this.setState({
                 instances: responseJson
             });
