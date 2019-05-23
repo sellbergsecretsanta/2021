@@ -2,6 +2,7 @@
    {
      "id": "brd",
      "name": "Blackrock Depths",
+     "nrOfDrops":0,
      "bosses": [
        {
          "bossNr":0,
@@ -169,7 +170,8 @@
   {
     "id": "dme",
     "name": "Dire Maul East",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"dme0",
@@ -210,7 +212,8 @@
   {
     "id": "dmw",
     "name": "Dire Maul West",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"dmw0",
@@ -258,7 +261,8 @@
   {
     "id": "dmn",
     "name": "Dire Maul North",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"dmn0",
@@ -299,7 +303,8 @@
   {
     "id": "sch",
     "name": "Scholomance",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"sch0",
@@ -354,7 +359,8 @@
   {
     "id": "stratLive",
     "name": "Stratholme Live",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"stratLive0",
@@ -409,7 +415,8 @@
   {
     "id": "stratUD",
     "name": "Stratholme UD",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"stratUD0",
@@ -464,7 +471,8 @@
   {
     "id": "lbrs",
     "name": "Lower Blackrock Spire",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"lbrs0",
@@ -575,7 +583,8 @@
   {
     "id": "ubrs",
     "name": "Upper Blackrock Spire",
-    "bosses": [
+    "nrOfDrops":0,
+     "bosses": [
       {
         "bossNr":0,
         "id":"ubrs0",
