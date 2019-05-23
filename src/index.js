@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import InstanceLoot from './InstanceLoot';
 import * as serviceWorker from './serviceWorker';
-import {Locations, Location} from 'react-router-component';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 const routing = (
-  <Locations>
-    <Location path="/" handler={App} />
-    <Location path="/loot" handler={InstanceLoot} />
-  </Locations>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <div>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/loot">Loot</Link>
+    </nav>
+    <Route exact path="/" component={App} />
+    <Route path="/loot" component={InstanceLoot} />
+    </div>
+  </BrowserRouter>
 )
 
 ReactDOM.render(routing, document.getElementById('root'));

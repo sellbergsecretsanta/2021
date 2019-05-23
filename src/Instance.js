@@ -10,11 +10,13 @@ class Instance extends React.Component {
     );
 
     return (
-      <li>{this.props.instance.name}
-        <ul>
-          { instance }
-        </ul>
-      </li>
+      this.props.instance.nrOfDrops > 0 && (
+        <li>{this.props.instance.name + " " + this.props.instance.nrOfDrops}
+          <ul>
+            { instance }
+          </ul>
+        </li>
+      )
     );
   }
 }
