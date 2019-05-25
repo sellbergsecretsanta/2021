@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import InstanceLoot from './InstanceLoot';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route, NavLink } from 'react-router-dom'
 
 const routing = (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/loot">Loot</Link>
+      <NavLink activeClassName="active" exact={true} to="/">Slots</NavLink>
+      <NavLink activeClassName="active" to="/loot">Instances</NavLink>
     </nav>
     <Route exact path="/" component={App} />
     <Route path="/loot" component={InstanceLoot} />
