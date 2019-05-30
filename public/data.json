@@ -38,7 +38,7 @@
                 "stage1":true,
                 "stage2":true,
                 "location":"",
-                "instance":"Stratholme",
+                "instance":"Stratholme UD",
                 "bossId":"stratUD5",
                 "boss":"Ramstein the Gorger",
                 "dropRate":"15%",
@@ -258,7 +258,7 @@
                 "stage1":false,
                 "stage2":true,
                 "location":"",
-                "instance":"Stratholme",
+                "instance":"Stratholme Live",
                 "bossId":"stratLive4",
                 "boss":"Cannon Master Willey",
                 "dropRate":"19%",
@@ -4157,6 +4157,868 @@
                 "itemName":"Gorewood Bow",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Gorewood Bow</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Ranged</td><th>Bow</th></tr></tbody></table><table width=\"100%\"><tr><td>55 - 104  Damage</td><th>Speed 2.50</th></tr></table>(31.8 damage per second)<br />+9 Stamina<br />+3 Agility<br />+2 Strength<br />Durability 75 / 75<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "class": "shaman",
+    "img": "data:image/jpeg;base64,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",
+    "specs": [
+      {
+        "id": 7,
+        "name": "restoration",
+        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAYHBQQI/8QAKhAAAQMDBAEDBAMBAAAAAAAAAQIDBAUGEQAHEiExEyJBCBQyUUJhcZH/xAAZAQACAwEAAAAAAAAAAAAAAAACAwAFBgT/xAAsEQABAwIFAgMJAAAAAAAAAAABAAIDESEEBRITMUFRFGGhIjJScXKBkbHw/9oADAMBAAIRAxEAPwDzRZtvyrmr9OoUNLaXpTiWkkqwEA+cHHk9n5Jx/WqlWdyrQ20uM2lbFjUesRadJ9GpT5vIvSVJOFpaIOEgHICjnJ7wB1o2nctvb2xY25lxR5E192Y7HhQ2wlC1ucePRUOglGSVDxyAHZzrD3we20v2tN3Pt65Mp9aqbvKfSZTPFK31K7W2rJHJSj2nwfPXjT80xmuTw9DoHJFefMjsPtX0FoI5WxWbxql1bz1uBtPRmZkO46azCRHlRkENoS0Eqe79rRT7/dnrJ851bXdvbUsTbViFPmswqk3FbaZcYThKn0pBWVEDk7zWTyJ6SniEgYyU3a2317U285HZjKmXHWHgw/McjqbjIQnsMtOLA5DPJROML4jGR3rB3iu+tKobl3ynofrsuIgQobqQQ0536jgbPS+OPnrKk58YOOnfvSNjgsywr1J4v5JMj3E6WLkvGniq1RudK+4mLcYSQ6qN5GT0Ckdjz3o1AK1clerNQXPqlXmTJK+i446ScDwB8AD4A6GjVk3LpaXeg8PJ8Sdt3LsTeTdo0yk09USLBpiWW4TQJSZLjivUUnJOSohHf9Y1XNtNpaLtjIbubcJTVSrUJIeYpUc5YiLxlK33VezmPhIz3g96n/09sUOk1uPuNeq249v282r7ZC05XOmAKLbLKT+SklQWT4ThOSMjTVZNxztxK7uDfVXCY0CBSloisLXyYh+svAWf2sISrKvJUf8ABoMyfLtlrT7I5PUknjv80+Uu0mieq9umu7HjAjMRGmHW/uW2FOESHEtnPNBUj3cSlRx8gHUV+oh6MJVu0B3LM+Iwt2UtRHBsPr5pThPyASonGfdprsU0lf1A0C3C7HkGDTXoy3M8kOyVoW6oJx+iop/0Y1HK0qpXvuVJDPqSahV6l6UZOfyUtfFCc/rwNc2X4YNnBFmtGr81A9LpEMJa6v8AVVFc2Str0mHIe7FBqSHWgtTkVsFCVHPt9ywcjo9gefGjTY5alDsVDduRqGxcMiOk/fVB2OVJdkZIWG8npsYCR+8Z8nGjWkjyzNJGh7InEHg2uFYba871ifKlIhxnnCWIsZLbLf8AFA/I4H9kkn9k6a016fRNqIlHppbZYrU92VUF8SVvGOUhpsnOOAJKsY7Pk9DRo0l7QWNqOqR0XDtrWJ1Mv6NW47gM1hEh5C1jPv8ARc7P/c6evp9aYpdOqV5Mx23axCcSzDdeBUI/MEKWlPjngkZOcZyMHvRo1CBugfT+0cXvBKV/1ypt3I6pEhSS4kLXjrKj5OjRo1rsXiZmzvDXkCvcoHclf//Z",
+        "slots": [
+          {
+            "id":1,
+            "name":"head",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:E",
+                "bossId":"dme3",
+                "boss":"Zevrim Thornhoof",
+                "dropRate":"20%",
+                "itemId":"18308",
+                "icon":"inv_helmet_51",
+                "itemName":"Clever Hat",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Clever Hat</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Head</td><th>Leather</th></tr></tbody></table>122 Armor<br />+11 Intellect<br />+10 Stamina<br />Durability 50 / 50<br />Requires Level 53<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 7 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Houses of the Holy",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13216",
+                "icon":"inv_helmet_06",
+                "itemName":"Crown of the Penitent",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Crown of the Penitent</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Head</td><th>Cloth</th></tr></tbody></table>64 Armor<br />+20 Intellect<br />Durability 45 / 45<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"BoE World Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13102",
+                "icon":"inv_jewelry_ring_03",
+                "itemName":"Cassandra's Grace",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cassandra's Grace</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Head</td><th>Cloth</th></tr></tbody></table>55 Armor<br />+9 Spirit<br />+7 Stamina<br />Durability 50 / 50<br />Requires Level 42<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 44.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "name":"neck",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs6",
+                "boss":"General Drakkisath",
+                "dropRate":"12%",
+                "itemId":"13141",
+                "icon":"inv_jewelry_necklace_09",
+                "itemName":"Tooth of Gnarr",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Tooth of Gnarr</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Neck</td><th></th></tr></tbody></table>+14 Intellect<br />+8 Stamina<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 3 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD5",
+                "boss":"Ramstein the Gorger",
+                "dropRate":"15%",
+                "itemId":"18723",
+                "icon":"inv_jewelry_necklace_01",
+                "itemName":"Animated Chain Necklace",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Animated Chain Necklace</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Neck</td><th></th></tr></tbody></table>+7 Stamina<br />+6 Spirit<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 33.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "name":"shoulders",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw4",
+                "boss":"Lord Hel'nurath",
+                "dropRate":"25%",
+                "itemId":"18757",
+                "icon":"inv_shoulder_25",
+                "itemName":"Diabolic Mantle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Diabolic Mantle</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Cloth</th></tr></tbody></table>66 Armor<br />+16 Stamina<br />Durability 50 / 50<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 8 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd1",
+                "boss":"Lord Roccor",
+                "dropRate":"25%",
+                "itemId":"22234",
+                "icon":"inv_shoulder_09",
+                "itemName":"Mantle of Lost Hope",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Mantle of Lost Hope</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Cloth</th></tr></tbody></table>57 Armor<br />+11 Intellect<br />+5 Stamina<br />Durability 50 / 50<br />Requires Level 48<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 26.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Restores 3 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd0",
+                "name":"High Interrogator Gerstahn",
+                "dropRate":"25%",
+                "itemId":"11624",
+                "icon":"INV_Shoulder_25",
+                "itemName":"Kentic Amice",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Kentic Amice</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Cloth</th></tr></tbody></table>56 Armor<br />+13 Intellect<br />+6 Spirit<br />+5 Stamina<br />Durability 50 / 50<br />Requires Level 47<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 14.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"BoE World Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13013",
+                "icon":"inv_shoulder_14",
+                "itemName":"Elder Wizard's Mantle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Elder Wizard's Mantle</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Cloth</th></tr></tbody></table>60 Armor<br />+20 Intellect<br />Durability 50 / 50<br />Requires Level 51<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 11.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "name":"back",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive5",
+                "boss":"Archivist Galford",
+                "dropRate":"22%",
+                "itemId":"13386",
+                "icon":"inv_misc_cape_19",
+                "itemName":"Archivist Cape",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Archivist Cape</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>43 Armor<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Random Bonuses</span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Restores 4 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"Leatherworking",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18510",
+                "icon":"inv_misc_cape_01",
+                "itemName":"Hide of the Wild",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Hide of the Wild</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>48 Armor<br />+10 Intellect<br />+8 Stamina<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 42.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Wanted: Vile Priestess Hexx and Her Minions",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19121",
+                "icon":"inv_misc_cape_17",
+                "itemName":"Deep Woodlands Cloak",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Deep Woodlands Cloak</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>37 Armor<br />+9 Intellect<br />+6 Stamina<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 12.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":5,
+            "name":"chest",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn4",
+                "boss":"Tribute Chest",
+                "dropRate":"17%",
+                "itemId":"18532",
+                "icon":"inv_chest_cloth_29",
+                "itemName":"Mindsurge Robe",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Mindsurge Robe</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Cloth</th></tr></tbody></table>88 Armor<br />+13 Intellect<br />+12 Stamina<br />Durability 80 / 80<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 10 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Maraudon",
+                "bossId":"",
+                "boss":"Meshlok the Harvester",
+                "dropRate":"33%",
+                "itemId":"17741",
+                "icon":"inv_chest_cloth_15",
+                "itemName":"Nature's Embrace",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Nature's Embrace</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Cloth</th></tr></tbody></table>73 Armor<br />Durability 80 / 80<br />Requires Level 46<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage done by Holy spells and effects by up to 29.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Restores 8 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD6",
+                "boss":"Baron Rivendare",
+                "dropRate":"17%",
+                "itemId":"13346",
+                "icon":"inv_chest_cloth_08",
+                "itemName":"Robes of the Exalted",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Robes of the Exalted</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Cloth</th></tr></tbody></table>89 Armor<br />+11 Spirit<br />+5 Intellect<br />Durability 80 / 80<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 68.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "name":"bracers",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch0",
+                "boss":"Kirtonos the Herald",
+                "dropRate":"11%",
+                "itemId":"13969",
+                "icon":"inv_bracer_16",
+                "itemName":"Loomguard Armbraces",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Loomguard Armbraces</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Mail</th></tr></tbody></table>157 Armor<br />+7 Intellect<br />+6 Stamina<br />Durability 40 / 40<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 33.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn3",
+                "boss":"King Gordok",
+                "dropRate":"23%",
+                "itemId":"18525",
+                "icon":"inv_bracer_12",
+                "itemName":"Bracers of Prosperity",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Bracers of Prosperity</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>77 Armor<br />+10 Intellect<br />+8 Stamina<br />+5 Spirit<br />Durability 35 / 35<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 22.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn0",
+                "boss":"Guard Slip'kik/Mol'dar",
+                "dropRate":"8%",
+                "itemId":"18497",
+                "icon":"inv_bracer_13",
+                "itemName":"Sublime Wristguards",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Sublime Wristguards</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Cloth</th></tr></tbody></table>37 Armor<br />+10 Intellect<br />+6 Spirit<br />+6 Stamina<br />Durability 30 / 30<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 12.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "name":"mh",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd14",
+                "boss":"Tomb of the Seven",
+                "dropRate":"23%",
+                "itemId":"11923",
+                "icon":"inv_hammer_07",
+                "itemName":"The Hammer of Grace",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">The Hammer of Grace</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Main Hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>71 - 132  Damage</td><th>Speed 2.70</th></tr></table>(37.6 damage per second)<br />Durability 90 / 90<br />Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 31.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"Quest: Lethtendris's Web",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18491",
+                "icon":"inv_weapon_shortblade_21",
+                "itemName":"Lorespinner",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Lorespinner</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Main Hand</td><th>Dagger</th></tr></tbody></table><table width=\"100%\"><tr><td>45 - 68  Damage</td><th>Speed 1.50</th></tr></table>(37.7 damage per second)<br />+5 Spirit<br />+6 Intellect<br />+5 Stamina<br />Durability 65 / 65<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 3 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Maraudon",
+                "bossId":"",
+                "boss":"Princess Theradras",
+                "dropRate":"26%",
+                "itemId":"17710",
+                "icon":"inv_weapon_shortblade_14",
+                "itemName":"Charstone Dirk",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Charstone Dirk</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Main Hand</td><th>Dagger</th></tr></tbody></table><table width=\"100%\"><tr><td>40 - 75  Damage</td><th>Speed 1.60</th></tr></table>(35.9 damage per second)<br />+11 Intellect<br />Durability 65 / 65<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 2 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":8,
+            "name":"oh",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"AV - Exalted",
+                "instance":"",
+                "boss":"",
+                "dropRate":"23%",
+                "itemId":"19312",
+                "icon":"inv_misc_flower_04",
+                "itemName":"Lei of the Lifegiver",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Lei of the Lifegiver</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Held In Off-Hand</td><th></th></tr></tbody></table>Requires Level 60<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 53.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Restores 3 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn3",
+                "boss":"King Gordok",
+                "dropRate":"23%",
+                "itemId":"18523",
+                "icon":"inv_misc_orb_01",
+                "itemName":"Brightly Glowing Stone",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Brightly Glowing Stone</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Held In Off-Hand</td><th></th></tr></tbody></table>+7 Stamina<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 37.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Maraudon",
+                "bossId":"",
+                "boss":"Tinkerer Gizlock",
+                "dropRate":"33%",
+                "itemId":"17718",
+                "icon":"inv_shield_10",
+                "itemName":"Gizlock's Hypertech Buckler",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Gizlock's Hypertech Buckler</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Off Hand</td><th>Shield</th></tr></tbody></table>1835 Armor<br />32 Block<br />+10 Intellect<br />+5 Stamina<br />Durability 100 / 100<br />Requires Level 48<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 4 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd17",
+                "boss":"Emperor Dagran Thaurissan",
+                "dropRate":"19%",
+                "itemId":"11928",
+                "icon":"inv_mace_13",
+                "itemName":"Thaurissan's Royal Scepter",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Thaurissan's Royal Scepter</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Held In Off-Hand</td><th></th></tr></tbody></table>+10 Spirit<br />+5 Intellect<br />+5 Stamina<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 22.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "name":"hands",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn3",
+                "boss":"King Gordok",
+                "dropRate":"23%",
+                "itemId":"18527",
+                "icon":"inv_gauntlets_10",
+                "itemName":"Harmonious Gauntlets",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Harmonious Gauntlets</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Mail</th></tr></tbody></table>231 Armor<br />+5 Intellect<br />+5 Spirit<br />+5 Stamina<br />Durability 40 / 40<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 51.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd16",
+                "boss":"Princess Moira Bronzebeard",
+                "dropRate":"25%",
+                "itemId":"12554",
+                "icon":"inv_gauntlets_32",
+                "itemName":"Hands of the Exalted Herald",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Hands of the Exalted Herald</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Cloth</th></tr></tbody></table>52 Armor<br />+13 Intellect<br />+12 Spirit<br />Durability 30 / 30<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 33.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"Taloring",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"14142",
+                "icon":"inv_gauntlets_05",
+                "itemName":"Ghostweave Gloves",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Ghostweave Gloves</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Hands</td><th>Cloth</th></tr></tbody></table>44 Armor<br />+8 Intellect<br />Durability 25 / 25<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs10",
+                "boss":"Quartermaster ZIgris",
+                "dropRate":"14%",
+                "itemId":"13253",
+                "icon":"inv_gauntlets_14",
+                "itemName":"Hands of Power",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Hands of Power</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Cloth</th></tr></tbody></table>53 Armor<br />+6 Spirit<br />+6 Intellect<br />Durability 30 / 30<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 26.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "name":"belt",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:E",
+                "bossId":"dme4",
+                "boss":"Alzzin the Wildshaper",
+                "dropRate":"19%",
+                "itemId":"18327",
+                "icon":"inv_belt_17",
+                "itemName":"Whipvine Cord",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Whipvine Cord</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>47 Armor<br />+9 Intellect<br />Durability 30 / 30<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 31.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"BoE World Drop",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"14553",
+                "icon":"inv_belt_09",
+                "itemName":"Sash of Mercy",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Sash of Mercy</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>105 Armor<br />+10 Spirit<br />+14 Stamina<br />Durability 40 / 40<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 53.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs4",
+                "boss":"Rend Blackhand",
+                "dropRate":"18%",
+                "itemId":"18104",
+                "icon":"inv_belt_03",
+                "itemName":"Feralsurge Girdle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Feralsurge Girdle</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Waist</td><th>Mail</th></tr></tbody></table>208 Armor<br />+10 Intellect<br />+9 Stamina<br />Durability 40 / 40<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 8 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"Taloring",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"14143",
+                "icon":"inv_belt_16",
+                "itemName":"Ghostweave Belt",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Ghostweave Belt</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>39 Armor<br />+8 Intellect<br />Durability 25 / 25<br />Requires Level 48<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "name":"legs",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw2",
+                "boss":"Illyanna Ravenoak",
+                "dropRate":"25%",
+                "itemId":"18386",
+                "icon":"inv_pants_06",
+                "itemName":"Padre's Trousers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Padre's Trousers</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Cloth</th></tr></tbody></table>76 Armor<br />+20 Intellect<br />Durability 65 / 65<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 42.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive1",
+                "boss":"Hearthsinger Forresten",
+                "dropRate":"20%",
+                "itemId":"13383",
+                "icon":"inv_pants_14",
+                "itemName":"Woollies of the Prancing Minstrel",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Woollies of the Prancing Minstrel</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Mail</th></tr></tbody></table>301 Armor<br />+12 Stamina<br />+10 Intellect<br />Durability 90 / 90<br />Requires Level 53<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 10 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd6",
+                "boss":"Fineous Darkvire",
+                "dropRate":"25%",
+                "itemId":"11841",
+                "icon":"inv_pants_09",
+                "itemName":"Senior Designer's Pantaloons",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Senior Designer's Pantaloons</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Cloth</th></tr></tbody></table>69 Armor<br />+18 Spirit<br />+8 Stamina<br />+7 Intellect<br />Durability 65 / 65<br />Requires Level 50<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 40.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs4",
+                "boss":"Highlord Omokk",
+                "dropRate":"17%",
+                "itemId":"13170",
+                "icon":"inv_pants_13",
+                "itemName":"Skyshroud Leggings",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Skyshroud Leggings</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Cloth</th></tr></tbody></table>75 Armor<br />+8 Stamina<br />+8 Intellect<br />Durability 65 / 65<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 34.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "name":"boots",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs4",
+                "boss":"Rend Blackhand",
+                "dropRate":"18%",
+                "itemId":"22247",
+                "icon":"inv_boots_cloth_03",
+                "itemName":"Faith Healer's Boots",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Faith Healer's Boots</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Cloth</th></tr></tbody></table>61 Armor<br />+12 Spirit<br />+12 Intellect<br />+10 Stamina<br />Durability 40 / 40<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 26.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn1",
+                "boss":"Captain Kromcrush",
+                "dropRate":"25%",
+                "itemId":"18507",
+                "icon":"inv_boots_05",
+                "itemName":"Boots of the Full Moon",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Boots of the Full Moon</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Cloth</th></tr></tbody></table>60 Armor<br />+12 Intellect<br />+9 Spirit<br />+12 Stamina<br />Durability 40 / 40<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 26.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD4",
+                "boss":"Stonespine",
+                "dropRate":"33%",
+                "itemId":"13954",
+                "icon":"inv_boots_08",
+                "itemName":"Verdant Footpads",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Verdant Footpads</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>118 Armor<br />Durability 50 / 50<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 37.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage done by Nature spells and effects by up to 24.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd10",
+                "boss":"Golem Lord Argelmach",
+                "dropRate":"31%",
+                "itemId":"11822",
+                "icon":"inv_boots_05",
+                "itemName":"Omnicast Boots",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Omnicast Boots</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Cloth</th></tr></tbody></table>58 Armor<br />+9 Intellect<br />+6 Stamina<br />Durability 40 / 40<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 22.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":13,
+            "name":"ring",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs14",
+                "boss":"Overlord Wyrmthalak",
+                "dropRate":"2%",
+                "itemId":"13143",
+                "icon":"inv_jewelry_ring_17",
+                "itemName":"Mark of the Dragon Lord",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Mark of the Dragon Lord</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Use: <a  class=\"q2\">A protective mana shield surrounds the caster absorbing 500 damage. While the shield holds, increases mana regeneration by 22 every 5 sec for 30 min.</a> (cooldown 30 min)</span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs9",
+                "boss":"Urok Doomhowl",
+                "dropRate":"25%",
+                "itemId":"13178",
+                "icon":"inv_jewelry_ring_22",
+                "itemName":"Rosewine Circle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Rosewine Circle</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 5 mana per 5 sec.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 29.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: In Dreams",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"16058",
+                "icon":"inv_jewelry_ring_19",
+                "itemName":"Fordring's Seal",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Fordring's Seal</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+5 Intellect<br />+4 Stamina<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 37.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:E",
+                "bossId":"dme4",
+                "boss":"Alzzin the Wildshaper",
+                "dropRate":"19%",
+                "itemId":"18314",
+                "icon":"inv_jewelry_ring_31",
+                "itemName":"Ring of Demonic Guile",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ring of Demonic Guile</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+10 Intellect<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 6 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":5,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: The Princess Saved?",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"12545",
+                "icon":"inv_jewelry_ring_05",
+                "itemName":"Eye of Orgrimmar",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Eye of Orgrimmar</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+4 Spirit<br />+7 Intellect<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 18.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":14,
+            "name":"trinket",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw1",
+                "boss":"Magister Kalendris",
+                "dropRate":"20%",
+                "itemId":"18371",
+                "icon":"inv_battery_02",
+                "itemName":"Mindtap Talisman",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Mindtap Talisman</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 11 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd10",
+                "boss":"Golem Lord Argelmach",
+                "dropRate":"8%",
+                "itemId":"11819",
+                "icon":"inv_jewelry_talisman_06",
+                "itemName":"Second Wind",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Second Wind</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Use: <a  class=\"q2\">Restores 30 mana every 1 sec for 10 sec.</a> (cooldown 15 min)</span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 22.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Heroes of Old",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"10659",
+                "icon":"inv_misc_gem_diamond_02",
+                "itemName":"Shard of Afrasa",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Shard of Afrasa</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 5 mana per 5 sec.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Restores 5 health per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"Quest: Frost Shock and You",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18471",
+                "icon":"inv_jewelry_talisman_10",
+                "itemName":"Royal Seal of Eldre'Thalas",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Royal Seal of Eldre'Thalas</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>+10 Fire Resistance<br />Classes: <font class=c7>Shaman</font><br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 23.</a></span><br /><!--en:12345--><span class=\"q\">\"Blessed by the Shen'dralar Ancients.\"</span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":15,
+            "name":"ranged",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch5",
+                "boss":"Mini Bosses",
+                "dropRate":"2%",
+                "itemId":"23200",
+                "icon":"inv_relics_totemoflife",
+                "itemName":"Totem of Sustaining",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Totem of Sustaining</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Relic</td><th>Totem</th></tr></tbody></table>Requires Level 60<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by Lesser Healing Wave by up to 53.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           }
