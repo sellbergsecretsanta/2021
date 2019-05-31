@@ -635,5 +635,40 @@
          "items": []
       }
     ]
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "nrOfDrops":0,
+    "bosses": [
+      {
+        "bossNr":0,
+        "id":"quest",
+        "name":"Quests",
+        "rare":false,
+        "items": []
+      },
+      {
+        "bossNr":1,
+        "id":"drop",
+        "name":"Drops",
+        "rare":false,
+        "items": []
+      },
+      {
+        "bossNr":2,
+        "id":"craft",
+        "name":"Crafted",
+        "rare":false,
+        "items": []
+      },
+      {
+        "bossNr":3,
+        "id":"rep",
+        "name":"Reputation",
+        "rare":false,
+        "items": []
+      }
+    ]
   }
 ]
