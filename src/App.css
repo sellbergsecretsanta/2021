@@ -96,3 +96,8 @@ nav a:hover:not(.active) {
 .cursor {
   cursor: pointer;
 }
+
+.sticky {
+  position: sticky;
+  top: 50px;
+}

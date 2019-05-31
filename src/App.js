@@ -120,18 +120,6 @@ export default class App extends React.Component {
     });
   }
 
-  fixTooltip(str) {
-    str = str.replace(/\\/g, '');
-    str = str.replace(/href="(.*?)"/g, '');
-    str = str.replace('<table width="100%">', '<table width="100%"><tbody>');
-    str = str.replace('<table><tr><td><b', '<table class="shrink"><tbody><tr><td><table width="100%"><tbody><tr><td><b');
-    str = str.replace('</th></tr></table>', '</th></tr></tbody></table>');
-    str = str.replace('</td></tr></table><table>', '</td></tr></tbody></table><table><tbody>');
-    str = str.replace('></td></tr></table>', '></td></tr></tbody></table></td><th style="background-position: right top;"></th></tr><tr><th style="background-position: left bottom;"></th><th style="background-position: right bottom;"></th></tr></tbody></table>');
-
-    return str;
-  }
-
   getItem(item) {
     this.setState({
       activeTooltip: item.tooltip,

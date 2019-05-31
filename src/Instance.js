@@ -19,7 +19,7 @@ class Instance extends React.Component {
 
     const instance = (
       this.props.instance.bosses.map(boss => (
-        <Boss key={boss.id} boss={boss} />
+        <Boss key={boss.id} boss={boss} selectedItem={this.props.selectedItem} handleSelectItem={this.props.handleSelectItem} />
       ))
     );
 

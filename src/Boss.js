@@ -5,7 +5,7 @@ class Boss extends React.Component {
   render() {
     const boss = (
       this.props.boss.items.map(item => (
-        <ItemRow key={item.itemId} item={item} />
+        <ItemRow key={item.itemId} item={item} selectedItem={this.props.selectedItem} handleSelectItem={this.props.handleSelectItem} />
       ))
     );
 

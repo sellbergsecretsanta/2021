@@ -3,6 +3,7 @@ import './App.css';
 import WowClasses from './WowClasses.js';
 import WowSpecs from './WowSpecs.js';
 import Instances from './Instances.js';
+import Tooltip from './Tooltip';
 
 export default class InstanceLoot extends React.Component {
   constructor(props) {
@@ -28,7 +29,9 @@ export default class InstanceLoot extends React.Component {
   resetState() {
     this.setState({
       instances: [],
+      activeTooltip: '',
       selectedSpec: '',
+      selectedItem: ''
     });
   }
 
@@ -95,29 +98,33 @@ export default class InstanceLoot extends React.Component {
           for( let slot in currentSpec.slots ) {
             for ( let item in currentSpec.slots[slot].items) {
               let drop = currentSpec.slots[slot].items[item];
-              if (drop.bossId) {
-                let partyItem = {
-                  bossId: drop.bossId,
-                  itemId: drop.itemId,
-                  itemName: drop.itemName,
-                  dropRate: drop.dropRate,
-                  quality: drop.quality,
-                  icon: drop.icon,
-                  specIcon: currentSpec.img
-                }
-                partyItems.push(partyItem);
-                /*let duplicate = partyItems.find(item => item.itemId === drop.itemId);
-                if (duplicate) {
-                  duplicate.specIcon2 = currentSpec.img;
-                } else {
-                  partyItems.push(partyItem);
-                }*/
+              let partyItem = {
+                bossId: drop.bossId,
+                itemId: drop.itemId,
+                itemName: drop.itemName,
+                dropRate: drop.dropRate,
+                quality: drop.quality,
+                icon: drop.icon,
+                tooltip: drop.tooltip,
+                stage1: drop.stage1
               }
+              if (!drop.bossId) {
+                let source = drop.source;
+                let craftIcon = "";
+
+                if (['blacksmithing', 'engineering', 'leatherworking', 'tailoring'].includes(drop.source)) {
+                  source = "craft";
+                  craftIcon = drop.source;
+                }
+                partyItem.bossId = source;
+                partyItem.craftIcon = craftIcon;
+                partyItem.dropRate = drop.instance ? drop.instance + ': ' + drop.boss + ' - ' + drop.dropRate : drop.location;
+              }
+              partyItems.push(partyItem);
             }
           }
         //}
 
-        //console.log(partyItems);
         fetch('./instances.json')
           .then((response) => response.json())
           .then((responseJson) => {
@@ -140,12 +147,29 @@ export default class InstanceLoot extends React.Component {
       });
   }
 
+  handleSelectItem = (selectedItem) => {
+    this.setState({selectedItem: selectedItem.itemId});
+    this.getItem(selectedItem);
+  }
+
+  getItem(item) {
+    this.setState({
+      activeTooltip: item.tooltip,
+      activeInfo: item
+    })
+  }
+
   render() {
     return (
       <div className="App">
         <WowClasses classes={this.state.classes} selectedClass={this.state.selectedClass} handleSelectClass={this.handleSelectClass} />
         <WowSpecs specs={this.state.specs} selectedSpec={this.state.selectedSpec} handleSelectSpec={this.handleSelectSpec} />
-        <Instances instances={this.state.instances} />
+        <div className="flexBox">
+          <Instances instances={this.state.instances} selectedItem={this.state.selectedItem} handleSelectItem={this.handleSelectItem} />
+          <div className="separator"></div>
+          <Tooltip tooltip={this.state.activeTooltip} icon={this.state.activeInfo.icon} isLoading={this.state.loading} />
+          <div className="separator"></div>
+        </div>
       </div>
     );
   }
