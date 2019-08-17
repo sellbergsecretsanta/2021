@@ -1,7 +1,7 @@
 {
-  "name": "react-gh-pages",
+  "name": "classic",
   "version": "0.1.0",
-  "homepage": "http://bislist.github.io/react-gh-pages",
+  "homepage": "http://bislist.github.io/classic",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",

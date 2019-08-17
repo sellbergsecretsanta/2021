@@ -6,7 +6,7 @@ body {
 
 nav {
   margin: -8px -8px 20px -8px;
-  background-color: #1d1d1d;
+  background-color: #1c192d;
   padding: 10px 0;
 }
 
@@ -17,11 +17,12 @@ nav a {
 }
 
 nav a:hover:not(.active) {
-  background-color: #111;
+  background-color: #3a335f;
 }
 
 .active {
   background-color: #000;
+  font-weight: bold;
 }
 
 .tooltipWrapper {
