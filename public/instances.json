@@ -577,7 +577,14 @@
         "name":"Overlord Wyrmthalak",
         "rare":false,
          "items": []
-      }
+      },
+       {
+         "bossNr":15,
+         "id":"lbrs15",
+         "name":"Mor Grayhoof",
+         "rare":false,
+         "items": []
+       }
     ]
   },
   {

@@ -9,7 +9,7 @@ class Instances extends React.Component {
     )));
 
     return (
-      <div>
+      <div className="itemColumn">
         { instances }
       </div>
     );
