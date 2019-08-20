@@ -112,7 +112,7 @@ export default class InstanceLoot extends React.Component {
                 let source = drop.source;
                 let craftIcon = "";
 
-                if (['blacksmithing', 'engineering', 'leatherworking', 'tailoring'].includes(drop.source)) {
+                if (['blacksmithing', 'engineering', 'leatherworking', 'tailoring', 'engraving'].includes(drop.source)) {
                   source = "craft";
                   craftIcon = drop.source;
                 }
@@ -134,12 +134,10 @@ export default class InstanceLoot extends React.Component {
                   ? boss.items = partyItems.filter(item => item.bossId === boss.id)
                   : instance.bosses.splice(object.length - 1 - index, 1)
 
-                  //console.log(boss.items.length)
                   instance.nrOfDrops += boss.items.length
                 }
               )
             )
-            //console.log(responseJson);
             this.setState({
                 instances: responseJson
             });
