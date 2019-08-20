@@ -1214,6 +1214,21 @@
                 "stage1":true,
                 "stage2":true,
                 "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11662",
+                "icon":"inv_belt_29",
+                "itemName":"Ban'thok Sash",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ban'thok Sash</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>43 Armor<br />+10 Stamina<br />+11 Intellect<br />Durability 30 / 30<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 12.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
                 "instance":"Scholomance",
                 "bossId":"sch0",
                 "boss":"Kirtonos the Herald",
@@ -1225,7 +1240,7 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Clutch of Andros</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>49 Armor<br />+19 Intellect<br />+9 Stamina<br />Durability 30 / 30<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
-                "id":2,
+                "id":3,
                 "stage1":true,
                 "stage2":true,
                 "source":"tailoring",
@@ -1376,6 +1391,21 @@
                 "itemName":"Maiden's Circle",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Maiden's Circle</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+6 Spirit<br />+7 Intellect<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 18.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11824",
+                "icon":"inv_jewelry_ring_08",
+                "itemName":"Cyclopean Band",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cyclopean Band</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+4 Spirit<br />+4 Strength<br />+7 Intellect<br />+8 Stamina<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 9.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           },
@@ -2648,21 +2678,6 @@
                 "id":1,
                 "stage1":true,
                 "stage2":true,
-                "source":"blacksmithing",
-                "location":"Blacksmithing",
-                "instance":"",
-                "boss":"",
-                "dropRate":"",
-                "itemId":"22385",
-                "icon":"inv_pants_04",
-                "itemName":"Titanic Leggings",
-                "quality":4,
-                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Titanic Leggings</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Legs</td><th>Plate</th></tr></tbody></table>598 Armor<br />+30 Strength<br />Durability 120 / 120<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 2%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
-              },
-              {
-                "id":2,
-                "stage1":true,
-                "stage2":true,
                 "source":"leatherworking",
                 "location":"Leatherworking",
                 "instance":"",
@@ -2675,7 +2690,7 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Devilsaur Leggings</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>148 Armor<br />+12 Stamina<br />Durability 75 / 75<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+46 Attack Power.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Devilsaur Armor</a> (0/2)</span><br /><div class=\"q0 indent\"><span><!--si15062:12345--><a >Devilsaur Leggings</a></span><br /><span><!--si15063:12345--><a >Devilsaur Gauntlets</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >Improves your chance to hit by 2%.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
-                "id":3,
+                "id":2,
                 "stage1":true,
                 "stage2":true,
                 "location":"",
@@ -3456,6 +3471,21 @@
                 "stage1":true,
                 "stage2":true,
                 "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11662",
+                "icon":"inv_belt_29",
+                "itemName":"Ban'thok Sash",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ban'thok Sash</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>43 Armor<br />+10 Stamina<br />+11 Intellect<br />Durability 30 / 30<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 12.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
                 "instance":"Scholomance",
                 "bossId":"sch0",
                 "boss":"Kirtonos the Herald",
@@ -3467,7 +3497,7 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Clutch of Andros</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>49 Armor<br />+19 Intellect<br />+9 Stamina<br />Durability 30 / 30<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
-                "id":2,
+                "id":3,
                 "stage1":true,
                 "stage2":true,
                 "source":"tailoring",
@@ -3618,6 +3648,21 @@
                 "itemName":"Maiden's Circle",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Maiden's Circle</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+6 Spirit<br />+7 Intellect<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 18.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11824",
+                "icon":"inv_jewelry_ring_08",
+                "itemName":"Cyclopean Band",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cyclopean Band</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+4 Spirit<br />+4 Strength<br />+7 Intellect<br />+8 Stamina<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 9.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           },
@@ -3878,6 +3923,21 @@
             "items":[
               {
                 "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw5",
+                "boss":"Prince Tortheldrin",
+                "dropRate":"19%",
+                "itemId":"18375",
+                "icon":"inv_bracer_07",
+                "itemName":"Bracers of the Eclipse",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Bracers of the Eclipse</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>76 Armor<br />+10 Agility<br />+9 Stamina<br />Durability 35 / 35<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+24 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
                 "stage1":true,
                 "stage2":true,
                 "location":"",
@@ -3892,7 +3952,7 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blackmist Armguards</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>77 Armor<br />+13 Stamina<br />+5 Strength<br />+10 Shadow Resistance<br />Durability 35 / 35<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
-                "id":2,
+                "id":3,
                 "stage1":true,
                 "stage2":true,
                 "source":"drop",
@@ -6174,12 +6234,10 @@
                 "id":2,
                 "stage1":true,
                 "stage2":true,
-                "source":"tailoring",
-                "location":"Taloring",
-                "instance":"",
-                "bossId":"",
-                "boss":"",
-                "dropRate":"",
+                "instance":"Scholomance",
+                "bossId":"sch6",
+                "boss":"Darkmaster Gandling",
+                "dropRate":"7%",
                 "itemId":"14153",
                 "icon":"inv_chest_cloth_51",
                 "itemName":"Robe of the Void",
@@ -6417,6 +6475,21 @@
                 "stage1":true,
                 "stage2":true,
                 "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11662",
+                "icon":"inv_belt_29",
+                "itemName":"Ban'thok Sash",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ban'thok Sash</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>43 Armor<br />+10 Stamina<br />+11 Intellect<br />Durability 30 / 30<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 12.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
                 "instance":"Scholomance",
                 "bossId":"sch0",
                 "boss":"Kirtonos the Herald",
@@ -6428,7 +6501,7 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Clutch of Andros</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Cloth</th></tr></tbody></table>49 Armor<br />+19 Intellect<br />+9 Stamina<br />Durability 30 / 30<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit with spells by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
-                "id":2,
+                "id":3,
                 "stage1":true,
                 "stage2":true,
                 "source":"tailoring",
@@ -6579,6 +6652,21 @@
                 "itemName":"Maiden's Circle",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Maiden's Circle</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+6 Spirit<br />+7 Intellect<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 18.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD - Ring of Law",
+                "bossId":"brdRoL6",
+                "boss":"Gorosh the Dervish",
+                "dropRate":"25%",
+                "itemId":"11824",
+                "icon":"inv_jewelry_ring_08",
+                "itemName":"Cyclopean Band",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cyclopean Band</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+4 Spirit<br />+4 Strength<br />+7 Intellect<br />+8 Stamina<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 9.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           },
@@ -7499,6 +7587,1358 @@
                 "itemName":"Idol of Rejuvenation",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Idol of Rejuvenation</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Relic</td><th>Idol</th></tr></tbody></table>Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by Rejuvenation by up to 50.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "cat",
+        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAcEBQYDCP/EACwQAAEDAwMDAwQCAwAAAAAAAAECAwQABREGByESEzFBUWEUInGBQkOCkfH/xAAbAQABBAMAAAAAAAAAAAAAAAAGAgMFBwABBP/EACoRAAEDAwIDCAMAAAAAAAAAAAECAxEABAUSIRNRYQYUMYGRscHwIkGh/9oADAMBAAIRAxEAPwDz3tVobUmrbh3ooQxHC+t2U+jJ5PnJBzk/7NN66SNsNKRu3coip81n7PqhFUhJUPjIB/VV2gr3Ms9gtTq2USbhdrkiDb2OnDcdPBW4R4JAVjJ9zVPuFaL1rWfdb7cnjb9O24qS31DGSk4ShA9SePTHOTRg0z3ZnS0JPX7tVXXzz2SyEXS9DI2GkwSZiOZk7fobGshuDujcbww5brU8iFb/AAGo7ZQFD1JPkn85pZrUVL6iSc+STU2XGWuV0RorqUkZSnlRI9zUVTLiXO2UErzgpHNDN0+6+uXN/byqw8fZW1m0G2EwP7512i3GZFbLcaZJZQTkpbdUkE++AaK0+n9udS3u2pnw7e+tlRIBS2TRWCyfIkJNIXl7FCilTyQR1pv7dS4s7S9tuKFtqu1pWoxG1AYWp/oQFf4qGSPWrRF1TuDrLU2kXJKWkRn2FspQcd1tpSku9OfUkhX/ACkpt5e1W56C+tag1Dmp72D/AFq8E/AVTevbkHQFvfvkAsvSL9OVIEhJAUmOo9QQFeQQcg/KaJ2rjjoSsGAIn0++lV/lcd3W6UEiVqnh9DqCj6bnzqDA0vZrbpS9IfjB2/u2tU8+SI7ZcCEn5VjJ+B+aW201gk3HVbYRazLPdCUpdBCEjPKlEeABzTpkfUtawXuEshVjbsIadRgFD7hIQWFDxj+X7pZak3deTFfgWG2wrc26ktrMdoJ6k+3V5Iph8NIUHHTGkmBzp/GP39wh1pgaysCSVbIMbp57dPervcjcubb9VyYNinqjwI4DbaWD0IOOCQBxyaKRsuQ9JkLffWVOKOSTRUevNPajp8KKLbsxZNMpQpAJAG8eNWdkHRdX4Y5adQ42oHzgZIP5yBWjkXWbcttkMzHe4mI4pLRxyBxRRSbInhKHRVdWQSkuNkjwUn5rQ6Svdyl7UXSBIkqcYQ6nCSfbOKUZ80UVrJElponlTOHQlD9yEiPz+BVnarezLjqccU4khfT9pHsPj5oooqIqer//2Q==",
+        "slots": [
+          {
+            "id":1,
+            "name":"head",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"8345",
+                "icon":"inv_helmet_04",
+                "itemName":"Wolfshead Helm",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Wolfshead Helm</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Head</td><th>Leather</th></tr></tbody></table>109 Armor<br />+10 Spirit<br />Durability 60 / 60<br />Classes: <font class=c11>Druid</font><br />Requires Level 40<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">When shapeshifting into Cat form the Druid gains 20 energy, when shapeshifting into Bear form the Druid gains 5 rage.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "name":"neck",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: In Dreams",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15411",
+                "icon":"inv_jewelry_talisman_07",
+                "itemName":"Mark of Fordring",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Mark of Fordring</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Neck</td><th></th></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">+26 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "name":"shoulders",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd5",
+                "boss":"Warder Stilgiss",
+                "dropRate":"25%",
+                "itemId":"22241",
+                "icon":"inv_shoulder_07",
+                "itemName":"Dark Warder's Pauldrons",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Dark Warder's Pauldrons</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>122 Armor<br />+17 Agility<br />+11 Strength<br />+7 Stamina<br />Durability 60 / 60<br />Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw1",
+                "boss":"Magister Kalendris",
+                "dropRate":"20%",
+                "itemId":"18374",
+                "icon":"inv_shoulder_24",
+                "itemName":"Flamescarred Shoulders",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Flamescarred Shoulders</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>131 Armor<br />+12 Agility<br />+12 Strength<br />+11 Stamina<br />+10 Fire Resistance<br />Durability 60 / 60<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs0",
+                "boss":"Pyroguard Emberseer",
+                "dropRate":"20%",
+                "itemId":"12927",
+                "icon":"inv_shoulder_10",
+                "itemName":"Truestrike Shoulders",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Truestrike Shoulders</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>129 Armor<br />Durability 60 / 60<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 2%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">+24 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "name":"back",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD6",
+                "boss":"Baron Rivendare",
+                "dropRate":"17%",
+                "itemId":"13340",
+                "icon":"inv_misc_cape_20",
+                "itemName":"Cape of the Black Baron",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cape of the Black Baron</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>45 Armor<br />+15 Agility<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+20 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":5,
+            "name":"chest",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch5",
+                "boss":"Mini Bosses",
+                "dropRate":"2%",
+                "itemId":"14637",
+                "icon":"inv_chest_leather_03",
+                "itemName":"Cadaverous Armor",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cadaverous Armor</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>172 Armor<br />+8 Strength<br />+8 Agility<br />Durability 100 / 100<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+60 Attack Power.</a></span><br /><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Cadaverous Garb</a> (0/5)</span><br /><div class=\"q0 indent\"><span><!--si14637:12345--><a >Cadaverous Armor</a></span><br /><span><!--si14636:12345--><a >Cadaverous Belt</a></span><br /><span><!--si14640:12345--><a >Cadaverous Gloves</a></span><br /><span><!--si14638:12345--><a >Cadaverous Leggings</a></span><br /><span><!--si14641:12345--><a >Cadaverous Walkers</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >Increased Defense +3.</a></span><br /><span>(3) Set: <a >+10 Attack Power.</a></span><br /><span>(4) Set: <a >+15 All Resistances.</a></span><br /><span>(5) Set: <a >Improves your chance to hit by 2%.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: A Better Ingredient",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"22274",
+                "icon":"inv_chest_leather_08",
+                "itemName":"Grizzled Pelt",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Grizzled Pelt</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>151 Armor<br />+17 Strength<br />+16 Agility<br />+11 Stamina<br />Durability 100 / 100<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch6",
+                "boss":"Darkmaster Gandling",
+                "dropRate":"14%",
+                "itemId":"13944",
+                "icon":"inv_chest_chain_17",
+                "itemName":"Tombstone Breastplate",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Tombstone Breastplate</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>174 Armor<br />+10 Strength<br />+10 Stamina<br />Durability 100 / 100<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 2%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "name":"bracers",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw5",
+                "boss":"Prince Tortheldrin",
+                "dropRate":"19%",
+                "itemId":"18375",
+                "icon":"inv_bracer_07",
+                "itemName":"Bracers of the Eclipse",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Bracers of the Eclipse</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>76 Armor<br />+10 Agility<br />+9 Stamina<br />Durability 35 / 35<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+24 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs5",
+                "boss":"The Beast",
+                "dropRate":"14%",
+                "itemId":"12966",
+                "icon":"inv_bracer_07",
+                "itemName":"Blackmist Armguards",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blackmist Armguards</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>77 Armor<br />+13 Stamina<br />+5 Strength<br />+10 Shadow Resistance<br />Durability 35 / 35<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd17",
+                "boss":"Emperor Dagran Thaurissan",
+                "dropRate":"20%",
+                "itemId":"22204",
+                "icon":"inv_bracer_10",
+                "itemName":"Wristguards of Renown",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Wristguards of Renown</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>74 Armor<br />+9 Strength<br />+10 Stamina<br />+10 Agility<br />Durability 35 / 35<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"BoE Instance Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"16710",
+                "icon":"inv_bracer_07",
+                "itemName":"Shadowcraft Bracers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Bracers</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>71 Armor<br />+15 Agility<br />+7 Stamina<br />Durability 35 / 35<br />Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "name":"mh",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"",
+                "instance":"Gnomeregan",
+                "bossId":"",
+                "boss":"Crowd Pummeler 9-60",
+                "dropRate":"50%",
+                "itemId":"9449",
+                "icon":"inv_mace_14",
+                "itemName":"Manual Crowd Pummeler",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Manual Crowd Pummeler</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Two-hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>46 - 70  Damage</td><th>Speed 2.00</th></tr></table>(29.0 damage per second)<br />+16 Strength<br />+5 Agility<br />Durability 100 / 100<br />Requires Level 29<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Use: <a  class=\"q2\">Increases your attack speed by 50% for 30 sec.</a><br><span class=c5>3 charges</span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: The Treasure of the Shen'dralar",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18420",
+                "icon":"inv_mace_02",
+                "itemName":"Bonecrusher",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Bonecrusher</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Two-hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>129 - 194  Damage</td><th>Speed 3.00</th></tr></table>(53.8 damage per second)<br />+30 Strength<br />Durability 100 / 100<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"lbrs4",
+                "boss":"Highlord Omokk",
+                "dropRate":"17%",
+                "itemId":"13167",
+                "icon":"inv_hammer_04",
+                "itemName":"Fist of Omokk",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Fist of Omokk</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Two-hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>135 - 204  Damage</td><th>Speed 3.30</th></tr></table>(51.4 damage per second)<br />+29 Strength<br />+12 Stamina<br />Durability 100 / 100<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "name":"hands",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15063",
+                "icon":"inv_gauntlets_26",
+                "itemName":"Devilsaur Gauntlets",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Devilsaur Gauntlets</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Hands</td><th>Leather</th></tr></tbody></table>103 Armor<br />+9 Stamina<br />Durability 35 / 35<br />Requires Level 53<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+28 Attack Power.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Devilsaur Armor</a> (0/2)</span><br /><div class=\"q0 indent\"><span><!--si15062:12345--><a >Devilsaur Leggings</a></span><br /><span><!--si15063:12345--><a >Devilsaur Gauntlets</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >Improves your chance to hit by 2%.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch0",
+                "boss":"Kirtonos the Herald",
+                "dropRate":"11%",
+                "itemId":"13957",
+                "icon":"inv_gauntlets_09",
+                "itemName":"Gargoyle Slashers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Gargoyle Slashers</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Leather</th></tr></tbody></table>107 Armor<br />+5 Agility<br />+10 Strength<br />+12 Stamina<br />Durability 35 / 35<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive0",
+                "boss":"Skul",
+                "dropRate":"33%",
+                "itemId":"13395",
+                "icon":"inv_gauntlets_27",
+                "itemName":"Skul's Fingerbone Claws",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Skul's Fingerbone Claws</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Leather</th></tr></tbody></table>105 Armor<br />+10 Stamina<br />Durability 35 / 35<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+40 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "name":"belt",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs10",
+                "boss":"Quartermaster Zigris",
+                "dropRate":"16%",
+                "itemId":"13252",
+                "icon":"inv_belt_10",
+                "itemName":"Cloudrunner Girdle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cloudrunner Girdle</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>185 Armor<br />+15 Agility<br />+14 Strength<br />Durability 35 / 35<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: Warlord's Command",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13962",
+                "icon":"inv_belt_15",
+                "itemName":"Vosh'gajin's Strand",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Vosh'gajin's Strand</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>95 Armor<br />+9 Strength<br />+6 Stamina<br />Durability 35 / 35<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "name":"legs",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15062",
+                "icon":"inv_pants_wolf",
+                "itemName":"Devilsaur Leggings",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Devilsaur Leggings</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>148 Armor<br />+12 Stamina<br />Durability 75 / 75<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+46 Attack Power.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Devilsaur Armor</a> (0/2)</span><br /><div class=\"q0 indent\"><span><!--si15062:12345--><a >Devilsaur Leggings</a></span><br /><span><!--si15063:12345--><a >Devilsaur Gauntlets</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >Improves your chance to hit by 2%.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs5",
+                "boss":"The Beast",
+                "dropRate":"14%",
+                "itemId":"12963",
+                "icon":"inv_pants_06",
+                "itemName":"Blademaster Leggings",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blademaster Leggings</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>154 Armor<br />+5 Agility<br />Durability 75 / 75<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 2%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD6",
+                "boss":"Baron Rivendare",
+                "dropRate":"11%",
+                "itemId":"16709",
+                "icon":"inv_pants_02",
+                "itemName":"Shadowcraft Pants",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Pants</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>150 Armor<br />+25 Agility<br />+12 Stamina<br />+12 Strength<br />Durability 75 / 75<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "name":"boots",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs11",
+                "boss":"Halycon",
+                "dropRate":"14%",
+                "itemId":"13210",
+                "icon":"inv_boots_wolf",
+                "itemName":"Pads of the Dread Wolf",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Pads of the Dread Wolf</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>116 Armor<br />+14 Stamina<br />Durability 50 / 50<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+40 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd16",
+                "boss":"Princess Moira Bronzebeard",
+                "dropRate":"25%",
+                "itemId":"12553",
+                "icon":"inv_boots_02",
+                "itemName":"Swiftwalker Boots",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Swiftwalker Boots</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>115 Armor<br />+21 Agility<br />+7 Stamina<br />+4 Strength<br />Durability 50 / 50<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":13,
+            "name":"ring",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "source":"rep",
+                "location":"AV: Exalted",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19325",
+                "icon":"inv_jewelry_ring_35",
+                "itemName":"Don Julio's Band",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Don Julio's Band</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+11 Stamina<br />Requires Level 60<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">+16 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"",
+                "instance":"Maraudon",
+                "boss":"Princess Theradras",
+                "dropRate":"26%",
+                "itemId":"17713",
+                "icon":"inv_jewelry_ring_17",
+                "itemName":"Blackstone Ring",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blackstone Ring</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+6 Stamina<br />Requires Level 49<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+20 Attack Power.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs6",
+                "boss":"General Drakkisath",
+                "dropRate":"33%",
+                "itemId":"13098",
+                "icon":"inv_jewelry_ring_18",
+                "itemName":"Painweaver Band",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Painweaver Band</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+7 Stamina<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">+16 Attack Power.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn4",
+                "boss":"Tribute Chest",
+                "dropRate":"17%",
+                "itemId":"18500",
+                "icon":"inv_jewelry_ring_13",
+                "itemName":"Tarnished Elven Ring",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Tarnished Elven Ring</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+15 Agility<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":14,
+            "name":"trinket",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: For the Horde!",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13965",
+                "icon":"inv_misc_armorkit_09",
+                "itemName":"Blackhand's Breadth",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blackhand's Breadth</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 2%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: Job Opening: Guard Captain of Revantusk Village",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19120",
+                "icon":"inv_misc_rune_07",
+                "itemName":"Rune of the Guard Captain",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Rune of the Guard Captain</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+20 Attack Power.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":15,
+            "name":"ranged",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"",
+                "bossId":"brd1",
+                "boss":"Lord Roccor",
+                "dropRate":"25%",
+                "itemId":"22397",
+                "icon":"inv_relics_idolofferocity",
+                "itemName":"Idol of Ferocity",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Idol of Ferocity</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Relic</td><th>Idol</th></tr></tbody></table>Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Reduces the energy cost of Claw and Rake by 3.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "bear",
+        "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACQDASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAAAAYEBwgBAgX/xAArEAACAQMDAwMEAgMAAAAAAAABAgMEBREABiESMUEHE2EiMlGRQnEjM4H/xAAYAQADAQEAAAAAAAAAAAAAAAAABAUDBv/EACcRAAEDAwIEBwAAAAAAAAAAAAEAAgMEESEFEhMxQVEkMmFxkcHx/9oADAMBAAIRAxEAPwDJO3bRVXatSmpYTLI54A448knsB8nT5SbTjiEsdSsSx0wYzTKCygL92D5/HydR9qUzUe0YKqkkaOrqqrqLKOemIqUQfnLnqI8kLrQl227ZhYKhLjNBQR1cPttIzBRGzDJAJ85z+tPs09zg1x6rmdU1ExPaByJt8LPjUoq9qXWntFs9inM0EIdlzJISWYlmx3+lfpHAH7Pew0FDbbwtlpKYTTP1R1NZIc+4/Q2FUfxQNg+SekH41a1LcNnx1lHtO3VDVDhulDGnVD19+W4yWx9wH48dljd9mt1gNXcJ6mctVyusaKmG6WGXVTnvg9PX4DcAkjDzaYA56DHt+ohry9xjcCL8vVUIQdGmPd9DDHui4pTQRQQe91RxxA9CqVDAD4wdGoroyHELoRM0gFWb6ZVMdstgq6kJ7FJ/nRjEGaNzhcoT2Y8frPjS36pepNbuOeGhog1PQ0zFkUkFnY8FmP8AXAA+fJ169kpJbpsmoo6T6qgBJVRTy4Xq6gB5IBzj4OqyutnrKGoIkjYgn7gNPbpG0zS2/W6jUdPDJUOkk8wOFJ21dK2jvVPUwzP7qyKyuDyCDkHWg9yWuPeu3LRdZUlpkw0jRKmSwbhgvbAyuQTxg/Gs72iknapXoRsg8nGtC+qdW9XtuG0W6opaYRmNJFaYRIIlUjJJ/ipAJA5+DraiceGQ7v8ASz1dviIuHg91W247DBNdJKqepRJajLtFGAVhwxVUznnCqujSnuG+5rUp7ZUOtJTRiFHxgy4JJkI8ZJJA8DGjWD5afccJxlLNtGVI27fLhSQxvBIqEcDGfB799N1Pd5ru+LhS0k7NyXMZDZz+QdGjRRPcJLA4StSAJLhc1EkVtLTwUdO7pkr7ikgEduM8/wDdK25b1X1zSGqlEhbkkjudGjTOpHICIMy3KS5/9z/3o0aNRlfHJf/Z",
+        "slots": [
+          {
+            "id":1,
+            "name":"head",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch2",
+                "boss":"Rattlegore",
+                "dropRate":"14%",
+                "itemId":"14539",
+                "icon":"inv_helmet_14",
+                "itemName":"Bone Ring Helm",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Bone Ring Helm</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Head</td><th>Leather</th></tr></tbody></table>141 Armor<br />+6 Strength<br />+30 Stamina<br />+6 Spirit<br />+6 Intellect<br />+5 Agility<br />Durability 60 / 60<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch6",
+                "boss":"Darkmaster Gandling",
+                "dropRate":"11%",
+                "itemId":"16707",
+                "icon":"inv_helmet_41",
+                "itemName":"Shadowcraft Cap",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Cap</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Head</td><th>Leather</th></tr></tbody></table>141 Armor<br />+20 Agility<br />+18 Stamina<br />+13 Strength<br />+5 Spirit<br />Durability 60 / 60<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd14",
+                "boss":"Tomb of the Seven",
+                "dropRate":"23%",
+                "itemId":"11925",
+                "icon":"inv_helmet_41",
+                "itemName":"Ghostshroud",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ghostshroud</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Head</td><th>Leather</th></tr></tbody></table>132 Armor<br />+19 Agility<br />+18 Stamina<br />+12 Strength<br />+5 Shadow Resistance<br />Durability 60 / 60<br />Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "name":"neck",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd5",
+                "boss":"Verek",
+                "dropRate":"12%",
+                "itemId":"11755",
+                "icon":"inv_misc_bandage_14",
+                "itemName":"Verek's Collar",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Verek's Collar</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Neck</td><th></th></tr></tbody></table>+6 Strength<br />+7 Stamina<br />Requires Level 51<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs6",
+                "boss":"War Master Voone",
+                "dropRate":"17%",
+                "itemId":"13177",
+                "icon":"inv_jewelry_amulet_04",
+                "itemName":"Talisman of Evasion",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Talisman of Evasion</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Neck</td><th></th></tr></tbody></table>+13 Agility<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "name":"shoulders",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19058",
+                "icon":"inv_shoulder_26",
+                "itemName":"Golden Mantle of the Dawn",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Golden Mantle of the Dawn</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>134 Armor<br />+22 Stamina<br />Durability 60 / 60<br />Requires Level 59<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"",
+                "instance":"Sunken Temple",
+                "bossId":"",
+                "boss":"Troll Mini Bosses",
+                "dropRate":"7%",
+                "itemId":"10783",
+                "icon":"inv_shoulder_18",
+                "itemName":"Atal'ai Spaulders",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Atal'ai Spaulders</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>193 Armor<br />Durability 60 / 60<br />Requires Level 47<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Random Bonuses</span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive6",
+                "boss":"Balnazzar",
+                "dropRate":"19%",
+                "itemId":"13358",
+                "icon":"inv_shoulder_24",
+                "itemName":"Wyrmtongue Shoulders",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Wyrmtongue Shoulders</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Shoulder</td><th>Leather</th></tr></tbody></table>132 Armor<br />+23 Agility<br />+10 Stamina<br />Durability 60 / 60<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "name":"back",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"tailoring",
+                "location":"Taloring",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"18413",
+                "icon":"inv_misc_cape_06",
+                "itemName":"Cloak of Warding",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cloak of Warding</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>214 Armor<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increased Defense +5.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"BoE World Drop",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"12551",
+                "icon":"inv_misc_cape_21",
+                "itemName":"Stoneshield Cloak",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Stoneshield Cloak</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>190 Armor<br />+6 Stamina<br />Requires Level 51<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn4",
+                "boss":"Tribute Chest",
+                "dropRate":"17%",
+                "itemId":"18495",
+                "icon":"inv_misc_cape_21",
+                "itemName":"Redoubt Cloak",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Redoubt Cloak</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Back</td><th>Cloth</th></tr></tbody></table>45 Armor<br />+15 Stamina<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increased Defense +7.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":5,
+            "name":"chest",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15064",
+                "icon":"inv_chest_leather_04",
+                "itemName":"Warbear Harness",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Warbear Harness</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>158 Armor<br />+27 Stamina<br />+11 Strength<br />Durability 100 / 100<br />Requires Level 50<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs6",
+                "boss":"General Drakkisath",
+                "dropRate":"11%",
+                "itemId":"16721",
+                "icon":"inv_chest_leather_07",
+                "itemName":"Shadowcraft Tunic",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Tunic</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>176 Armor<br />+26 Agility<br />+13 Stamina<br />+12 Spirit<br />Durability 100 / 100<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: A Better Ingredient",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"22274",
+                "icon":"inv_chest_leather_08",
+                "itemName":"Grizzled Pelt",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Grizzled Pelt</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Chest</td><th>Leather</th></tr></tbody></table>151 Armor<br />+17 Strength<br />+16 Agility<br />+11 Stamina<br />Durability 100 / 100<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "name":"bracers",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD0",
+                "boss":"Magistrate Barthilas",
+                "dropRate":"17%",
+                "itemId":"18726",
+                "icon":"inv_bracer_11",
+                "itemName":"Magistrate's Cuffs",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Magistrate's Cuffs</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>73 Armor<br />+15 Stamina<br />Durability 35 / 35<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 4 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs5",
+                "boss":"The Beast",
+                "dropRate":"14%",
+                "itemId":"12966",
+                "icon":"inv_bracer_07",
+                "itemName":"Blackmist Armguards",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Blackmist Armguards</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>77 Armor<br />+13 Stamina<br />+5 Strength<br />+10 Shadow Resistance<br />Durability 35 / 35<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to hit by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd17",
+                "boss":"Emperor Dagran Thaurissan",
+                "dropRate":"20%",
+                "itemId":"22204",
+                "icon":"inv_bracer_10",
+                "itemName":"Wristguards of Renown",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Wristguards of Renown</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>74 Armor<br />+9 Strength<br />+10 Stamina<br />+10 Agility<br />Durability 35 / 35<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"BoE Instance Drop",
+                "instance":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"16710",
+                "icon":"inv_bracer_07",
+                "itemName":"Shadowcraft Bracers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Bracers</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Wrist</td><th>Leather</th></tr></tbody></table>71 Armor<br />+15 Agility<br />+7 Stamina<br />Durability 35 / 35<br />Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "name":"mh",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw5",
+                "boss":"Prince Tortheldrin",
+                "dropRate":"19%",
+                "itemId":"18376",
+                "icon":"inv_mace_07",
+                "itemName":"Timeworn Mace",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Timeworn Mace</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>One-hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>62 - 117  Damage</td><th>Speed 2.20</th></tr></table>(40.7 damage per second)<br />120 Armor<br />+7 Strength<br />+11 Stamina<br />Durability 90 / 90<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd8",
+                "boss":"Bael'Gar",
+                "dropRate":"25%",
+                "itemId":"11805",
+                "icon":"inv_hammer_09",
+                "itemName":"Rubidium Hammer",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Rubidium Hammer</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Main Hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>51 - 96  Damage</td><th>Speed 2.00</th></tr></table>(36.8 damage per second)<br />120 Armor<br />+5 Strength<br />Durability 90 / 90<br />Requires Level 51<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":8,
+            "name":"oh",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive5",
+                "boss":"Archivist Galford",
+                "dropRate":"20%",
+                "itemId":"13385",
+                "icon":"inv_misc_book_05",
+                "itemName":"Tome of Knowledge",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Tome of Knowledge</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Held In Off-Hand</td><th></th></tr></tbody></table>+8 Agility<br />+8 Strength<br />+8 Intellect<br />+8 Spirit<br />+8 Stamina<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "name":"hands",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs9",
+                "boss":"Urok Doomhowl",
+                "dropRate":"25%",
+                "itemId":"13258",
+                "icon":"inv_gauntlets_22",
+                "itemName":"Slaghide Gauntlets",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Slaghide Gauntlets</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Leather</th></tr></tbody></table>207 Armor<br />Durability 35 / 35<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Random Bonuses</span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch0",
+                "boss":"Kirtonos the Herald",
+                "dropRate":"11%",
+                "itemId":"13957",
+                "icon":"inv_gauntlets_09",
+                "itemName":"Gargoyle Slashers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Gargoyle Slashers</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Hands</td><th>Leather</th></tr></tbody></table>107 Armor<br />+5 Agility<br />+10 Strength<br />+12 Stamina<br />Durability 35 / 35<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "name":"belt",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch4",
+                "boss":"Ras Frostwhisper",
+                "dropRate":"16%",
+                "itemId":"14502",
+                "icon":"inv_belt_10",
+                "itemName":"Frostbite Girdle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Frostbite Girdle</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>98 Armor<br />+5 Strength<br />+15 Agility<br />+15 Stamina<br />+10 Frost Resistance<br />Durability 35 / 35<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"LBRS",
+                "bossId":"lbrs10",
+                "boss":"Quartermaster Zigris",
+                "dropRate":"16%",
+                "itemId":"13252",
+                "icon":"inv_belt_10",
+                "itemName":"Cloudrunner Girdle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cloudrunner Girdle</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>185 Armor<br />+15 Agility<br />+14 Strength<br />Durability 35 / 35<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "name":"legs",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd9",
+                "boss":"General Angerforge",
+                "dropRate":"20%",
+                "itemId":"11821",
+                "icon":"inv_pants_09",
+                "itemName":"Warstrife Leggings",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Warstrife Leggings</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>144 Armor<br />+6 Strength<br />+12 Stamina<br />+6 Agility<br />Durability 75 / 75<br />Requires Level 53<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 2%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD6",
+                "boss":"Baron Rivendare",
+                "dropRate":"11%",
+                "itemId":"16709",
+                "icon":"inv_pants_02",
+                "itemName":"Shadowcraft Pants",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Shadowcraft Pants</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Legs</td><th>Leather</th></tr></tbody></table>150 Armor<br />+25 Agility<br />+12 Stamina<br />+12 Strength<br />Durability 75 / 75<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Shadowcraft Armor</a> (0/8)</span><br /><div class=\"q0 indent\"><span><!--si16713:12345--><a >Shadowcraft Belt</a></span><br /><span><!--si16711:12345--><a >Shadowcraft Boots</a></span><br /><span><!--si16710:12345--><a >Shadowcraft Bracers</a></span><br /><span><!--si16721:12345--><a >Shadowcraft Tunic</a></span><br /><span><!--si16708:12345--><a >Shadowcraft Spaulders</a></span><br /><span><!--si16709:12345--><a >Shadowcraft Pants</a></span><br /><span><!--si16712:12345--><a >Shadowcraft Gloves</a></span><br /><span><!--si16707:12345--><a >Shadowcraft Cap</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >+200 Armor.</a></span><br /><span>(4) Set: <a >+40 Attack Power.</a></span><br /><span>(6) Set: <a >Chance on melee attack to restore 35 energy.</a></span><br /><span>(8) Set: <a >+8 All Resistances.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "name":"boots",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme Live",
+                "bossId":"stratLive5",
+                "boss":"Archivist Galford",
+                "dropRate":"20%",
+                "itemId":"18716",
+                "icon":"inv_boots_08",
+                "itemName":"Ash Covered Boots",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ash Covered Boots</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>118 Armor<br />+13 Agility<br />+13 Stamina<br />Durability 50 / 50<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"leatherworking",
+                "location":"Leatherworking",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"19052",
+                "icon":"inv_boots_cloth_08",
+                "itemName":"Dawn Treaders",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Dawn Treaders</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>114 Armor<br />+18 Stamina<br />Durability 50 / 50<br />Requires Level 53<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Scholomance",
+                "bossId":"sch5",
+                "boss":"Mini Bosses",
+                "dropRate":"2%",
+                "itemId":"14641",
+                "icon":"inv_boots_05",
+                "itemName":"Cadaverous Walkers",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Cadaverous Walkers</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>118 Armor<br />+20 Stamina<br />Durability 50 / 50<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">+24 Attack Power.</a></span><br /><!--en:12345--><br /><span class=\"q\"><a  class=\"q\">Cadaverous Garb</a> (0/5)</span><br /><div class=\"q0 indent\"><span><!--si14637:12345--><a >Cadaverous Armor</a></span><br /><span><!--si14636:12345--><a >Cadaverous Belt</a></span><br /><span><!--si14640:12345--><a >Cadaverous Gloves</a></span><br /><span><!--si14638:12345--><a >Cadaverous Leggings</a></span><br /><span><!--si14641:12345--><a >Cadaverous Walkers</a></span><br /></div><br /><span class=\"q0\"><span class=\"q0\"><span>(2) Set: <a >Increased Defense +3.</a></span><br /><span>(3) Set: <a >+10 Attack Power.</a></span><br /><span>(4) Set: <a >+15 All Resistances.</a></span><br /><span>(5) Set: <a >Improves your chance to hit by 2%.</a></span><br /></span></span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd16",
+                "boss":"Princess Moira Bronzebeard",
+                "dropRate":"25%",
+                "itemId":"12553",
+                "icon":"inv_boots_02",
+                "itemName":"Swiftwalker Boots",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Swiftwalker Boots</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Feet</td><th>Leather</th></tr></tbody></table>115 Armor<br />+21 Agility<br />+7 Stamina<br />+4 Strength<br />Durability 50 / 50<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":13,
+            "name":"ring",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: Hidden Treasures",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"15855",
+                "icon":"inv_jewelry_ring_26",
+                "itemName":"Ring of Protection",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Ring of Protection</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>150 Armor<br />+9 Stamina<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"BRD",
+                "bossId":"brd10",
+                "boss":"Golem Lord Argelmach",
+                "dropRate":"31%",
+                "itemId":"11669",
+                "icon":"inv_jewelry_ring_05",
+                "itemName":"Naglering",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Naglering</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>50 Armor<br />+10 Stamina<br />Requires Level 54<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">When struck in combat inflicts 3 Arcane damage to the attacker.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increased Defense +5.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: The Princess Saved?",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"12544",
+                "icon":"inv_jewelry_ring_05",
+                "itemName":"Thrall's Resolve",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Thrall's Resolve</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>150 Armor<br />+7 Stamina<br />+4 Strength<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"Stratholme UD",
+                "bossId":"stratUD5",
+                "boss":"Ramstein the Gorger",
+                "dropRate":"15%",
+                "itemId":"13373",
+                "icon":"inv_misc_bone_04",
+                "itemName":"Band of Flesh",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Band of Flesh</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Finger</td><th></th></tr></tbody></table>+16 Stamina<br />+6 Strength<br />+3 Agility<br />Requires Level 55<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":14,
+            "name":"trinket",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: For the Horde!",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"13966",
+                "icon":"inv_jewelry_talisman_09",
+                "itemName":"Mark of Tyranny",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Mark of Tyranny</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>180 Armor<br />+10 Arcane Resistance<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":true,
+                "stage2":true,
+                "source":"engraving",
+                "location":"Enchanting",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"11811",
+                "icon":"inv_misc_gem_bloodstone_01",
+                "itemName":"Smoking Heart of the Mountain",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Smoking Heart of the Mountain</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>150 Armor<br />+7 Fire Resistance<br />+7 Nature Resistance<br />+7 Frost Resistance<br />+7 Shadow Resistance<br />Requires Level 50<br /></td></tr></tbody></table><table><tbody><tr><td><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":false,
+                "stage2":true,
+                "source":"rep",
+                "location":"AV: Exalted",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"17909",
+                "icon":"inv_jewelry_frostwolftrinket_05",
+                "itemName":"Frostwolf Insignia Rank 6",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Frostwolf Insignia Rank 6</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>+10 Frost Resistance<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 8 health per 5 sec.</a></span><br /><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 2%.</a></span><br /><span class=\"q2\">Use: <a  class=\"q2\">Returns you to the sanctuary of Frostwolf Keep.</a></span><br /><!--en:12345--><span class=\"q\">\"The Eye of Command\"</span></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:W",
+                "bossId":"dmw3",
+                "boss":"Immol'thar",
+                "dropRate":"19%",
+                "itemId":"18370",
+                "icon":"inv_misc_stonetablet_04",
+                "itemName":"Vigilance Charm",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Vigilance Charm</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table>Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 2%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":5,
+                "stage1":true,
+                "stage2":true,
+                "source":"quest",
+                "location":"Quest: Facing Negolash",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"4130",
+                "icon":"inv_misc_pocketwatch_02",
+                "itemName":"Smotts' Compass",
+                "quality":2,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q2\">Smotts' Compass</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Trinket</td><th></th></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases your chance to dodge an attack by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":15,
+            "name":"ranged",
+            "items":[
+              {
+                "id":1,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"",
+                "bossId":"brd1",
+                "boss":"Lord Roccor",
+                "dropRate":"25%",
+                "itemId":"22397",
+                "icon":"inv_relics_idolofferocity",
+                "itemName":"Idol of Ferocity",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Idol of Ferocity</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Relic</td><th>Idol</th></tr></tbody></table>Requires Level 52<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Reduces the energy cost of Claw and Rake by 3.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              }
+            ]
+          },
+          {
+            "id":16,
+            "name":"2h",
+            "items":[
+              {
+                "id":1,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"BoE World Drop",
+                "instance":"",
+                "bossId":"",
+                "boss":"",
+                "dropRate":"",
+                "itemId":"943",
+                "icon":"inv_staff_29",
+                "itemName":"Warden Staff",
+                "quality":4,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Warden Staff</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Two-hand</td><th>Staff</th></tr></tbody></table><table width=\"100%\"><tr><td>89 - 134  Damage</td><th>Speed 2.40</th></tr></table>(46.5 damage per second)<br />260 Armor<br />+11 Stamina<br />Durability 120 / 120<br />Requires Level 43<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increased Defense +10.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":2,
+                "stage1":false,
+                "stage2":true,
+                "location":"",
+                "instance":"DM:N",
+                "bossId":"dmn4",
+                "boss":"Tribute Chest",
+                "dropRate":"9%",
+                "itemId":"18531",
+                "icon":"inv_hammer_22",
+                "itemName":"Unyielding Maul",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Unyielding Maul</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>Two-hand</td><th>Mace</th></tr></tbody></table><table width=\"100%\"><tr><td>135 - 204  Damage</td><th>Speed 3.20</th></tr></table>(53.0 damage per second)<br />250 Armor<br />+12 Stamina<br />Durability 100 / 100<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increased Defense +8.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           }
