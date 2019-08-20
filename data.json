@@ -652,7 +652,7 @@
             "items":[
               {
                 "id":1,
-                "stage1":true,
+                "stage1":false,
                 "stage2":true,
                 "source":"quest",
                 "location":"Quest: Darkmoon Beast Deck",
@@ -3348,6 +3348,7 @@
                 "id":3,
                 "stage1":true,
                 "stage2":true,
+                "source":"drop",
                 "location":"",
                 "instance":"Scarlet Monastery",
                 "boss":"Arcanist Doan",
@@ -6345,6 +6346,36 @@
                 "itemName":"Witchblade",
                 "quality":3,
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Witchblade</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>One-hand</td><th>Dagger</th></tr></tbody></table><table width=\"100%\"><tr><td>45 - 85  Damage</td><th>Speed 1.60</th></tr></table>(40.6 damage per second)<br />+8 Intellect<br />Durability 65 / 65<br />Requires Level 57<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 14.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"",
+                "instance":"Scarlet Monastery",
+                "boss":"Arcanist Doan",
+                "dropRate":"25%",
+                "itemId":"7714",
+                "icon":"inv_weapon_shortblade_07",
+                "itemName":"Hypnotic Blade",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Hypnotic Blade</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>One-hand</td><th>Dagger</th></tr></tbody></table><table width=\"100%\"><tr><td>26 - 49  Damage</td><th>Speed 1.40</th></tr></table>(26.8 damage per second)<br />+8 Intellect<br />+3 Spirit<br />Durability 65 / 65<br />Requires Level 34<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases damage and healing done by magical spells and effects by up to 9.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
+                "id":4,
+                "stage1":true,
+                "stage2":true,
+                "source":"drop",
+                "location":"",
+                "instance":"Maraudon",
+                "boss":"Tinkerer Gizlock",
+                "dropRate":"33%",
+                "itemId":"17719",
+                "icon":"inv_sword_14",
+                "itemName":"Inventor's Focal Sword",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Inventor's Focal Sword</b><br />Binds when picked up<table width=\"100%\"><tbody><tr><td>One-hand</td><th>Sword</th></tr></tbody></table><table width=\"100%\"><tr><td>54 - 101  Damage</td><th>Speed 2.20</th></tr></table>(35.2 damage per second)<br />Durability 90 / 90<br />Requires Level 48<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Improves your chance to get a critical strike with spells by 1%.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               }
             ]
           },
