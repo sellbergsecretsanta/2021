@@ -7302,6 +7302,21 @@
                 "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q4\">Sash of Mercy</b><br />Binds when equipped<table width=\"100%\"><tbody><tr><td>Waist</td><th>Leather</th></tr></tbody></table>105 Armor<br />+10 Spirit<br />+14 Stamina<br />Durability 40 / 40<br />Requires Level 56<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Increases healing done by spells and effects by up to 53.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
               },
               {
+                "id":3,
+                "stage1":true,
+                "stage2":true,
+                "location":"",
+                "instance":"UBRS",
+                "bossId":"ubrs4",
+                "boss":"Rend Blackhand",
+                "dropRate":"18%",
+                "itemId":"18104",
+                "icon":"inv_belt_03",
+                "itemName":"Feralsurge Girdle",
+                "quality":3,
+                "tooltip":"<table class=\"shrink\"><tbody><tr><td><table width=\"100%\"><tbody><tr><td><b class=\"q3\">Feralsurge Girdle</b><br />Binds when picked up<br />Unique<table width=\"100%\"><tbody><tr><td>Waist</td><th>Mail</th></tr></tbody></table>208 Armor<br />+10 Intellect<br />+9 Stamina<br />Durability 40 / 40<br />Requires Level 58<br /></td></tr></tbody></table><table><tbody><tr><td><span class=\"q2\">Equip: <a  class=\"q2\">Restores 8 mana per 5 sec.</a></span><br /><!--en:12345--></td></tr></tbody></table></td><th style=\"background-position: right top;\"></th></tr><tr><th style=\"background-position: left bottom;\"></th><th style=\"background-position: right bottom;\"></th></tr></tbody></table>"
+              },
+              {
                 "id":4,
                 "stage1":true,
                 "stage2":true,
