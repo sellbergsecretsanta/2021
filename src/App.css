@@ -1,0 +1,104 @@
+body {
+  font: 14px "Verdana", sans-serif;
+  color: white;
+  background-color: #000;
+}
+
+nav {
+  margin: -8px -8px 20px -8px;
+  background-color: #1c192d;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: #3a335f;
+}
+
+.active {
+  background-color: #000;
+  font-weight: bold;
+}
+
+.tooltipWrapper {
+  width: 320px;
+  flex: 8;
+}
+
+.tooltip {
+  color: #FFF;
+  visibility: visible;
+  margin-top:-1px;
+}
+
+.tooltip .info {
+  font-size: 12px;
+  width: 300px;
+}
+
+.shrink {
+  width:320px;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  margin: 0 5px 10px 0;
+  border-radius: 6px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 4px inset;
+}
+
+.medium {
+  width: 36px;
+  height: 36px;
+}
+
+.small {
+  width: 18px;
+  height: 18px;
+  margin: 0 2px -2px 10px;
+}
+
+.menu {
+  margin: 10px 0 30px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.flexBox {
+  display:flex;
+}
+
+.itemColumn {
+  flex: 8;
+  min-width: 370px;
+}
+
+.separator {
+  flex:1;
+}
+
+.selected {
+  box-shadow: #1eff00 0 0 20px inset;
+}
+
+.unavailable {
+  box-shadow: #f00 0 0 30px inset;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 50px;
+}
