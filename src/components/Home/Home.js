@@ -53,6 +53,17 @@ function Home(props) {
             });
     }
 
+    const updateUserData = (updatedUsers) => {
+        axios.put(API_BASE_URL + "/619beb2f62ed886f91531862", updatedUsers)
+            .then(function (response) {
+                setIsSaving(false);
+                getCurrentUser();
+            })
+            .catch(function (error) {
+                setIsSaving(false);
+            });
+    }
+
     const saveWishlist = async (text) => {
         setIsSaving(true);
         const oldUsers = await getUsers();
@@ -62,14 +73,48 @@ function Home(props) {
             : p
         );
 
-        axios.put(API_BASE_URL + "/619beb2f62ed886f91531862", updatedUsers)
-            .then(function (response) {
-                getCurrentUser();
-                setIsSaving(false);
-            })
-            .catch(function (error) {
-                setIsSaving(false);
-            });
+        updateUserData(updatedUsers);
+    }
+
+    const handleRandomize = async () => {
+        setIsSaving(true);
+        const users = await getUsers();
+
+        while (true) {
+            let {successful, updatedUsers} = randomize(users);
+
+            if (successful) {
+                updateUserData(updatedUsers);
+                break;
+            }
+        }
+    }
+
+    const randomize = (users) => {
+        let usersCopy = [...users];
+
+        var arr1 = usersCopy.slice(),
+            arr2 = usersCopy.slice();
+
+        arr1.sort(function() { return 0.5 - Math.random();});
+        arr2.sort(function() { return 0.5 - Math.random();});
+
+        while (arr1.length) {
+            var user1 = arr1.pop(),
+                user2 = arr2[0] == user1 ? arr2.pop() : arr2.shift();
+
+            if (user1.partner === user2.partner) {
+                return {successful: false, updatedUsers: users};
+            }
+
+            users = users.map(p =>
+                p.id === user1.id
+                ?  { ...p, secretsanta: user2.id }
+                : p
+            );
+        }
+
+        return {successful: true, updatedUsers: users};
     }
 
     return(
@@ -97,6 +142,12 @@ function Home(props) {
                         />
                     </div>
                 </div>
+            )}
+            {localStorage.getItem(ACCESS_TOKEN_NAME) === "0" && (
+                <button
+                    className="btn btn-dark-blue mr-3"
+                    onClick={() => {if(window.confirm('Vill du slumpa secret santa?')){handleRandomize()};}}>Assign secret santa
+                </button>
             )}
         </div>
     )
