@@ -19,10 +19,8 @@ function Home(props) {
     }
 
     const getCurrentUser = () => {
-        axios.get("https://api.jsonbin.io/b/619beb2f62ed886f91531862/latest")
-        //axios.get(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME))
+        axios.get(API_BASE_URL + "/619beb2f62ed886f91531862/latest")
             .then(function (response) {
-                console.log(response);
                 if(response.status !== 200){
                     redirectToLogin()
                 }
@@ -46,13 +44,12 @@ function Home(props) {
     }
 
     const getUsers = async () => {
-        return await axios.get("https://api.jsonbin.io/b/619beb2f62ed886f91531862/latest")
-        //axios.get(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME))
+        return await axios.get(API_BASE_URL + "/619beb2f62ed886f91531862/latest")
             .then(function (response) {
                 return response.data;
             })
             .catch(function (error) {
-                redirectToLogin()
+                console.log(error);
             });
     }
 
@@ -65,8 +62,7 @@ function Home(props) {
             : p
         );
 
-        axios.put("https://api.jsonbin.io/b/619beb2f62ed886f91531862", updatedUsers)
-        //axios.put(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME), updated)
+        axios.put(API_BASE_URL + "/619beb2f62ed886f91531862", updatedUsers)
             .then(function (response) {
                 getCurrentUser();
                 setIsSaving(false);
@@ -77,11 +73,11 @@ function Home(props) {
     }
 
     return(
-        <>
+        <div className="card col-md-6 col-sm-12 mt-4 p-3">
             <p className="mt-2">Skriv minst en sak du önskar dig</p>
             {currentUser && (
-                <div className="row mt-4">
-                    <div className="mt-2 col-md-6 col-sm-12">
+                <div className="row">
+                    <div className="col-12">
                         <Textarea
                             wishlistText={currentUser.wishlist}
                             onSaveWishlist={(text) => saveWishlist(text)}
@@ -93,7 +89,7 @@ function Home(props) {
 
             {secretSanta && (
                 <div className="row mt-4">
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-12">
                         <Textarea
                             name={secretSanta.name}
                             wishlistText={secretSanta.wishlist}
@@ -102,7 +98,7 @@ function Home(props) {
                     </div>
                 </div>
             )}
-        </>
+        </div>
     )
 }
 

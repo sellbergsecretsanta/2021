@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import './LoginForm.css';
-import {API_BASE_URL, ACCESS_TOKEN_NAME} from '../../constants/apiContants';
+import { ACCESS_TOKEN_NAME, API_BASE_URL } from '../../constants/apiContants';
 import { withRouter } from "react-router-dom";
 
 function LoginForm(props) {
@@ -25,8 +25,7 @@ function LoginForm(props) {
             "password":state.password,
         }
 
-        //axios.get(API_BASE_URL+'/auth')
-        axios.get("https://api.jsonbin.io/b/619bead00ddbee6f8b104f1b")
+        axios.get(API_BASE_URL + "/619bead00ddbee6f8b104f1b")
             .then(function (response) {
                 if(response.status === 200){
                     let user = response.data.find(x => x.username === payload.username.trim().toLowerCase());

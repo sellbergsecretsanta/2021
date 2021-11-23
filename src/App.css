@@ -15,3 +15,9 @@ body {
   background-color: #257ca3;
   border-color: #257ca3;
 }
+
+.btn-light-blue {
+  color: #000;
+  background-color: #dcf3ff;
+  border-color: #dcf3ff;
+}
