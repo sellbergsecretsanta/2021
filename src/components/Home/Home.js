@@ -15,7 +15,7 @@ function Home(props) {
     }, []);
 
     function redirectToLogin() {
-        props.history.push('/login');
+        props.history.push('/');
     }
 
     const getCurrentUser = () => {
