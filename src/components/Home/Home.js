@@ -1,6 +1,5 @@
 import React,{ useEffect, useState } from 'react';
 import { withRouter } from 'react-router-dom';
-//import { TextArea } from 'reactstrap';
 import { ACCESS_TOKEN_NAME, API_BASE_URL } from '../../constants/apiContants';
 import axios from 'axios'
 import Textarea from '../Textarea/Textarea';
@@ -8,76 +7,93 @@ import Textarea from '../Textarea/Textarea';
 function Home(props) {
     const [currentUser , setCurrentUser] = useState(undefined);
     const [secretSanta , setSecretSanta] = useState(undefined);
-
-/*    useEffect(() => {
-        getCurrentUser();
-    }, []);*/
+    const [isSaving, setIsSaving] = useState(false);
 
     useEffect(() => {
-      if (currentUser) {
-          getSecretSanta();
-      }
-      else {
-          getCurrentUser();
-      }
-    }, [currentUser]);
+      getCurrentUser();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     function redirectToLogin() {
         props.history.push('/login');
     }
 
     const getCurrentUser = () => {
-        axios.get(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME))
+        axios.get("https://api.jsonbin.io/b/619beb2f62ed886f91531862/latest")
+        //axios.get(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME))
             .then(function (response) {
+                console.log(response);
                 if(response.status !== 200){
-                  redirectToLogin()
+                    redirectToLogin()
+                }
+
+                let user = response.data.find(x => x.id === parseInt(localStorage.getItem(ACCESS_TOKEN_NAME)));
+
+                if(!user) {
+                    redirectToLogin()
                 }
                 else {
-                    setCurrentUser(response.data);
+                    setCurrentUser(user);
+
+                    if (user.secretsanta !== undefined && user.secretsanta !== null) {
+                        setSecretSanta(response.data.find(x => x.id === user.secretsanta));
+                    }
                 }
             })
             .catch(function (error) {
-              redirectToLogin()
+                redirectToLogin()
             });
     }
 
-    const getSecretSanta = () => {
-        if (currentUser.secretsanta !== undefined && currentUser.secretsanta !== null) {
-            axios.get(API_BASE_URL+'/users/' + currentUser.secretsanta)
-                .then(function (response) {
-                    setSecretSanta(response.data);
-                })
-                .catch(function (error) {
-                });
-        }
-    }
-
-    const saveWishlist = (text) => {
-        let updated = { ...currentUser, wishlist: text };
-        axios.put(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME), updated)
+    const getUsers = async () => {
+        return await axios.get("https://api.jsonbin.io/b/619beb2f62ed886f91531862/latest")
+        //axios.get(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME))
             .then(function (response) {
-                getCurrentUser();
+                return response.data;
             })
             .catch(function (error) {
+                redirectToLogin()
+            });
+    }
+
+    const saveWishlist = async (text) => {
+        setIsSaving(true);
+        const oldUsers = await getUsers();
+        const updatedUsers = oldUsers.map(p =>
+            p.id === parseInt(localStorage.getItem(ACCESS_TOKEN_NAME))
+            ?  { ...p, wishlist: text }
+            : p
+        );
+
+        axios.put("https://api.jsonbin.io/b/619beb2f62ed886f91531862", updatedUsers)
+        //axios.put(API_BASE_URL+'/users/' + localStorage.getItem(ACCESS_TOKEN_NAME), updated)
+            .then(function (response) {
+                getCurrentUser();
+                setIsSaving(false);
+            })
+            .catch(function (error) {
+                setIsSaving(false);
             });
     }
 
     return(
         <>
-            <p>Skriv minst en sak du önskar dig</p>
+            <p className="mt-2">Skriv minst en sak du önskar dig</p>
             {currentUser && (
-                <div className="row">
-                    <div className="mt-2 col-6">
+                <div className="row mt-4">
+                    <div className="mt-2 col-md-6 col-sm-12">
                         <Textarea
                             wishlistText={currentUser.wishlist}
                             onSaveWishlist={(text) => saveWishlist(text)}
+                            isSaving={isSaving}
                         />
                     </div>
                 </div>
             )}
+
             {secretSanta && (
-                <div className="row">
-                    <div className="mt-2 col-6">
+                <div className="row mt-4">
+                    <div className="col-md-6 col-sm-12">
                         <Textarea
                             name={secretSanta.name}
                             wishlistText={secretSanta.wishlist}

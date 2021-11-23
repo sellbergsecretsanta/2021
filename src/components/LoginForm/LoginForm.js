@@ -25,10 +25,11 @@ function LoginForm(props) {
             "password":state.password,
         }
 
-        axios.get(API_BASE_URL+'/auth')
+        //axios.get(API_BASE_URL+'/auth')
+        axios.get("https://api.jsonbin.io/b/619bead00ddbee6f8b104f1b")
             .then(function (response) {
                 if(response.status === 200){
-                    let user = response.data.find(x => x.username === payload.username);
+                    let user = response.data.find(x => x.username === payload.username.trim().toLowerCase());
 
                     if (!user) {
                         props.showError("Username does not exists");
@@ -60,7 +61,7 @@ function LoginForm(props) {
         props.history.push('/home');
     }
     return(
-        <div className="card col-4 login-card mt-2 hv-center">
+        <div className="card col-md-6 col-sm-12 login-card p-3 mt-2 hv-center">
             <form>
                 <div className="form-group text-left">
                 <label htmlFor="exampleInputUsername1">Användarnamn</label>
@@ -87,7 +88,7 @@ function LoginForm(props) {
                 </div>
                 <button
                     type="submit"
-                    className="btn btn-primary"
+                    className="btn btn-dark-blue"
                     onClick={handleSubmitClick}
                 >
                     Logga in

@@ -11,13 +11,18 @@ function Textarea(props) {
             <Form.Control as="textarea" rows={4} value={wishlistText} onChange={(e) => setWishlistText(e.target.value)} disabled={props.disabled} />
           </Form.Group>
           {!props.disabled && (
-              <Button
-                  variant="primary"
-                  type="button"
-                  onClick={props.onSaveWishlist ? () => props.onSaveWishlist(wishlistText) : undefined}
-               >
-                  Spara
-              </Button>
+              props.isSaving ? (
+                  <div className="alert alert-success mt-2" style={{display: props.isSaving ? 'block' : 'none' }} role="alert">
+                      Sparar...
+                  </div>
+              ) :
+                  <Button
+                      className="btn-dark-blue"
+                      type="button"
+                      onClick={props.onSaveWishlist ? () => props.onSaveWishlist(wishlistText) : undefined}
+                   >
+                      Spara
+                  </Button>
           )}
         </Form>
     )

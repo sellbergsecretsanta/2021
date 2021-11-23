@@ -6,10 +6,14 @@ function Header(props) {
         if (typeof s !== 'string') return ''
         return s.charAt(0).toUpperCase() + s.slice(1)
     }
-    let title = capitalize(props.location.pathname.substring(1,props.location.pathname.length))
+/*    let title = capitalize(props.location.pathname.substring(1,props.location.pathname.length))
     if(props.location.pathname === '/') {
-        title = 'Welcome'
+        title = 'Login'
     }
+    else if(title.toLowerCase() === 'home') {
+        title = 'Secret Santa';
+    }*/
+
     function renderLogout() {
         if(props.location.pathname === '/home'){
             return(
@@ -24,9 +28,11 @@ function Header(props) {
         props.history.push('/login')
     }
     return(
-        <nav className="navbar navbar-dark bg-primary">
-            <div className="row col-12 d-flex justify-content-center text-white">
-                <span className="h3">{props.title || title}</span>
+        <nav className="navbar navbar-dark bg-dark-blue">
+            <div className="row col-12 d-flex text-white">
+                <span className="h3">
+                    {localStorage.getItem(ACCESS_TOKEN_NAME) ? "Secret Santa" : "Login"}
+                </span>
                 {renderLogout()}
             </div>
         </nav>
