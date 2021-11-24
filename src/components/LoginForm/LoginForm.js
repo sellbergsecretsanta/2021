@@ -133,8 +133,8 @@ function LoginForm(props) {
                     <hr className="mt-0" />
                     {wishlistUpdated.length > 0 && wishlistUpdated.map((p, index) => (
                         <div className="row" key={index}>
-                            <div className="col-3">{p.name}</div>
-                            <div className="col-9">{p.lastUpdated}</div>
+                            <div className="col-4">{p.name}</div>
+                            <div className="col-8">{p.lastUpdated}</div>
                         </div>
                     ))}
                 </div>
