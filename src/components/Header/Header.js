@@ -1,12 +1,12 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
-import { ACCESS_TOKEN_NAME, API_BASE_URL } from '../../constants/apiContants';
+import { ACCESS_TOKEN_NAME } from '../../constants/apiContants';
 
 function Header(props) {
-    const capitalize = (s) => {
+/*     const capitalize = (s) => {
         if (typeof s !== 'string') return ''
         return s.charAt(0).toUpperCase() + s.slice(1)
-    }
+    } */
 
     function renderLogout() {
         if(props.location.pathname === '/home'){

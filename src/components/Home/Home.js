@@ -10,8 +10,8 @@ function Home(props) {
     const [isSaving, setIsSaving] = useState(false);
 
     useEffect(() => {
-      getCurrentUser();
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+        getCurrentUser();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     function redirectToLogin() {
@@ -69,7 +69,7 @@ function Home(props) {
         const oldUsers = await getUsers();
         const updatedUsers = oldUsers.map(p =>
             p.id === parseInt(localStorage.getItem(ACCESS_TOKEN_NAME))
-            ?  { ...p, wishlist: text }
+            ?  { ...p, wishlist: text, lastUpdated: new Date()}
             : p
         );
 
@@ -101,7 +101,7 @@ function Home(props) {
 
         while (arr1.length) {
             var user1 = arr1.pop(),
-                user2 = arr2[0] == user1 ? arr2.pop() : arr2.shift();
+                user2 = arr2[0] === user1 ? arr2.pop() : arr2.shift();
 
             if (user1.partner === user2.partner) {
                 return {successful: false, updatedUsers: users};
